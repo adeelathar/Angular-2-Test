@@ -49,3 +49,4 @@ node_modules/.bin/concurrent.cmd
 node_modules/.bin/concurrent
 node_modules/
 nbproject/
+assets/app/
