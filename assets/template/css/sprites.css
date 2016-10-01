@@ -1,0 +1,410 @@
+.fa_arrow_down_alt,
+.fa_arrow_down,
+.fa_arrow_left_alt,
+.fa_arrow_left,
+.fa_arrow_right_alt,
+.fa_arrow_right,
+.fa_badge,
+.fa_blog,
+.fa_calendar,
+.fa_camera,
+.fa_can,
+.fa_clock,
+.fa_close,
+.fa_comment_alt,
+.fa_comment,
+.fa_doc_alt,
+.fa_doc,
+.fa_download,
+.fa_eye,
+.fa_globe,
+.fa_heart_gery,
+.fa_heart,
+.fa_invite,
+.fa_loud,
+.fa_mail,
+.fa_map_marker,
+.fa_next,
+.fa_pause,
+.fa_play_alt,
+.fa_play_round,
+.fa_play,
+.fa_plus_alt,
+.fa_plus,
+.fa_prev,
+.fa_profession,
+.fa_search_alt,
+.fa_search,
+.fa_smiles,
+.fa_speaker,
+.fa_star_alt,
+.fa_star,
+.fa_suite,
+.fa_suitecase,
+.fa_tag,
+.fa_thumbs_alt,
+.fa_thumbs,
+.fa_users,
+.fa_invite_alt,
+.fa_like_act,
+.fa_like_active,
+.fa_tag_alt,
+.fa_tick,
+.fa_video,
+.fa_bell,
+.fa_message,
+.fa_share_alt,
+.fa_share,
+.fa_heart_gery_alt {
+  background: url('../images/sprites.png') no-repeat;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+.fa_arrow_down_alt {
+  background-position: -1px -9px;
+  width: 12px;
+  height: 7px;
+}
+
+.fa_arrow_down {
+  background-position: -50px -9px;
+  width: 12px;
+  height: 7px;
+}
+
+.fa_arrow_left_alt {
+  background-position: -101px -3px;
+  width: 13px;
+  height: 19px;
+}
+
+.fa_arrow_left {
+  background-position: -151px -3px;
+  width: 15px;
+  height: 23px;
+}
+
+.fa_arrow_right_alt {
+  background-position: -250px -5px;
+  width: 13px;
+  height: 19px;
+}
+
+.fa_arrow_right {
+  background-position: -201px -2px;
+  width: 15px;
+  height: 23px;
+}
+
+.fa_badge {
+  background-position: -298px -4px;
+  width: 20px;
+  height: 18px;
+}
+
+.fa_blog {
+  background-position: -395px -4px;
+  width: 18px;
+  height: 18px;
+}
+
+.fa_calendar {
+  background-position: -448px -10px;
+  width: 12px;
+  height: 12px;
+}
+
+.fa_camera {
+  background-position: -496px -8px;
+  width: 18px;
+  height: 14px;
+}
+
+.fa_can {
+  background-position: -548px -10px;
+  width: 15px;
+  height: 13px;
+}
+
+.fa_clock {
+  background-position: -596px -11px;
+  width: 10px;
+  height: 10px;
+}
+
+.fa_close {
+  background-position: -1px -56px;
+  width: 16px;
+  height: 16px;
+}
+
+.fa_comment_alt {
+  background-position: -50px -58px;
+  width: 15px;
+  height: 11px;
+}
+
+.fa_comment {
+  background-position: -97px -56px;
+  width: 15px;
+  height: 11px;
+}
+
+.fa_doc_alt {
+  background-position: -152px -53px;
+  width: 13px;
+  height: 19px;
+}
+
+.fa_doc {
+  background-position: -197px -54px;
+  width: 17px;
+  height: 18px;
+}
+
+.fa_download {
+  background-position: -244px -53px;
+  width: 23px;
+  height: 19px;
+}
+
+.fa_eye {
+  background-position: -298px -59px;
+  width: 15px;
+  height: 9px;
+}
+
+.fa_globe {
+  background-position: -350px -56px;
+  width: 10px;
+  height: 10px;
+}
+
+.fa_heart_gery {
+  background-position: -408px -58px;
+  width: 15px;
+  height: 13px;
+}
+
+.fa_heart {
+  background-position: -447px -58px;
+  width: 11px;
+  height: 11px;
+}
+
+.fa_invite {
+  background-position: -502px -57px;
+  width: 13px;
+  height: 13px;
+}
+
+.fa_loud {
+  background-position: -546px -55px;
+  width: 16px;
+  height: 15px;
+}
+
+.fa_mail {
+  background-position: -593px -58px;
+  width: 16px;
+  height: 11px;
+}
+
+.fa_map_marker {
+  background-position: -2px -104px;
+  width: 12px;
+  height: 16px;
+}
+
+.fa_next {
+  background-position: -98px -105px;
+  width: 20px;
+  height: 14px;
+}
+
+.fa_pause {
+  background-position: -147px -99px;
+  width: 13px;
+  height: 23px;
+}
+
+.fa_play_alt {
+  background-position: -197px -100px;
+  width: 14px;
+  height: 17px;
+}
+
+.fa_play_round {
+  background-position: -247px -101px;
+  width: 19px;
+  height: 19px;
+}
+
+.fa_play {
+  background-position: -298px -100px;
+  width: 19px;
+  height: 22px;
+}
+
+.fa_plus_alt {
+  background-position: -351px -107px;
+  width: 11px;
+  height: 11px;
+}
+
+.fa_plus {
+  background-position: -398px -109px;
+  width: 11px;
+  height: 11px;
+}
+
+.fa_prev {
+  background-position: -448px -105px;
+  width: 20px;
+  height: 14px;
+}
+
+.fa_profession {
+  background-position: -498px -108px;
+  width: 15px;
+  height: 12px;
+}
+
+.fa_search_alt {
+  background-position: -544px -107px;
+  width: 18px;
+  height: 17px;
+}
+
+.fa_search {
+  background-position: -593px -105px;
+  width: 18px;
+  height: 17px;
+}
+
+.fa_smiles {
+  background-position: -99px -150px;
+  width: 17px;
+  height: 17px;
+}
+
+.fa_speaker {
+  background-position: -147px -156px;
+  width: 13px;
+  height: 11px;
+}
+
+.fa_star_alt {
+  background-position: -197px -151px;
+  width: 19px;
+  height: 18px;
+}
+
+.fa_star {
+  background-position: -249px -155px;
+  width: 15px;
+  height: 15px;
+}
+
+.fa_suite {
+  background-position: -297px -154px;
+  width: 18px;
+  height: 22px;
+}
+
+.fa_suitecase {
+  background-position: -349px -157px;
+  width: 14px;
+  height: 11px;
+}
+
+.fa_tag {
+  background-position: -396px -154px;
+  width: 17px;
+  height: 17px;
+}
+
+.fa_thumbs_alt {
+  background-position: -446px -151px;
+  width: 20px;
+  height: 20px;
+}
+
+.fa_thumbs {
+  background-position: -495px -151px;
+  width: 20px;
+  height: 20px;
+}
+
+.fa_users {
+  background-position: -542px -154px;
+  width: 24px;
+  height: 19px;
+}
+
+.fa_invite_alt {
+  background-position: -597px -156px;
+  width: 14px;
+  height: 13px;
+}
+
+.fa_like_act {
+  background-position: 0 -209px;
+  width: 11px;
+  height: 9px;
+}
+
+.fa_like_active {
+  background-position: -50px -207px;
+  width: 12px;
+  height: 10px;
+}
+
+.fa_tag_alt {
+  background-position: -98px -208px;
+  width: 10px;
+  height: 9px;
+}
+
+.fa_tick {
+  background-position: -149px -208px;
+  width: 12px;
+  height: 9px;
+}
+
+.fa_video {
+  background-position: -197px -206px;
+  width: 20px;
+  height: 13px;
+}
+
+.fa_bell {
+  background-position: -345px -4px;
+  width: 28px;
+  height: 27px;
+}
+
+.fa_message {
+  background-position: -41px -99px;
+  width: 28px;
+  height: 27px;
+}
+
+.fa_share_alt {
+  background-position: 0 -159px;
+  width: 12px;
+  height: 11px;
+}
+
+.fa_share {
+  background-position: -56px -159px;
+  width: 12px;
+  height: 11px;
+}
+
+.fa_heart_gery_alt {
+  background-position: -263px -205px;
+  width: 11px;
+  height: 9px;
+}

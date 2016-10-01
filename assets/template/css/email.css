@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.mail .modal-dialog {
+  width: 449px;
+}
+
+.mail .modal-header {
+  background: #f4f4f4;
+}
+
+.mail .modal-header h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #4e4f53;
+}
+
+.mail .modal-footer {
+  padding: 10px;
+}
+
+.mail .modal-footer .btn {
+  font-size: 12px;
+}
+
+.mail .modal-footer .btn-default {
+  background: #f4f4f4 !important;
+}
+
+.mail .modal-footer .btn-primary {
+  background: #afb420;
+  border: none !important;
+}
+
+.mail .modal-body {
+  padding: 10px;
+}
+
+.mail .modal-body .form-group label {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.mail .modal-body .form-group .form-control {
+  border: 1px solid #ccc;
+  font-size: 12px;
+  box-shadow: none;
+  padding: 6px 5px;
+}
+
+.help {
+  float: right;
+  font-size: 11px;
+  color: #afb420;
+  margin-top: 5px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+.pop_over_help {
+  background: #4e4f53 none repeat scroll 0 0;
+  border-radius: 3px;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 23px;
+  width: 290px;
+  z-index: 9999;
+  display: none;
+  padding: 10px;
+}
+
+.pop_over_help p {
+  margin-bottom: 0px;
+  color: #fff;
+  line-height: 18px;
+}
+
+.pop_over_help::after {
+  background: rgba(0, 0, 0, 0) url("../images/tooltip.png") no-repeat scroll left center;
+  content: "";
+  height: 15px;
+  position: absolute;
+  right: 12px;
+  top: -9px;
+  width: 14px;
+  z-index: 99999;
+}
+
+.photos_email {
+  height: 192px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.max_width_photos {
+  height: 192px;
+  width: 590px;
+}

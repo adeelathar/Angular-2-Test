@@ -1,0 +1,68 @@
+@import url("profile-visitor-list.css");
+.whiteBg {
+  margin-bottom: 10px;
+}
+
+.visitor_head_box {
+  border-bottom: 0px !important;
+}
+
+.popover {
+  background-color: #4e4f53;
+  color: #fff;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.popover.bottom > .arrow::after {
+  border-bottom-color: #4e4f53;
+}
+
+.noticess {
+  background: #4e4f53 none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  font-weight: 300;
+  line-height: 15px;
+  padding: 10px;
+  position: absolute;
+  width: 300px;
+  left: 0px;
+  top: 50px;
+  z-index: 9999;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  -ms-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  -o-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.noticess::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  background: url('../images/tooltip.png') no-repeat center bottom;
+  top: -10px;
+  left: 30px;
+}
+
+.popover.bottom {
+  margin-top: 0px;
+}
+
+.noticess p {
+  margin-bottom: 0px;
+  line-height: 19px !important;
+}
+
+.noticess a {
+  color: #ff9e05 !important;
+  display: block;
+  margin-top: 10px;
+}
+
+.popover-content i {
+  cursor: pointer;
+}

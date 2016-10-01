@@ -1,0 +1,1066 @@
+@charset "utf-8";
+
+/* CSS Document
+[fameuz Lightbox dependies]
+
+	1] fameuz_lightbox.css
+	2] Image_popup.css
+	3] JW_player.css
+*/
+
+
+/*
+	1] fameuz_lightbox.css
+*/
+
+.lightBox .bg_img_stand,
+.lightBox .bg_img_stand_img {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none
+}
+
+.lightBox .dismiss,
+.lightBox .zoom i:first-child,
+.lightBox .zoom i:last-child {
+  border-left: 1px solid #232323
+}
+
+.small_thumb {
+  width: 300px;
+  height: auto
+}
+
+.overlay_bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .7);
+  display: none;
+  z-index: 999999999
+}
+
+.lightBox {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  top: 2.5%;
+  left: 2.5%;
+  overflow: hidden;
+  border: 1px solid #232323
+}
+
+.lightBox .bg_fixed {
+  position: absolute;
+  min-width: 50%;
+  height: 100%;
+  top: 0;
+  left: 320px;
+  right: 0;
+  background: rgba(0, 0, 0, .8);
+  z-index: 1;
+  overflow: hidden
+}
+
+.loadImages {
+  background: url(../js/fameuz_lightbox/images/ld.gif) center center no-repeat #000!important
+}
+
+.lightBox .loadingImg {
+  background: url(../js/fameuz_lightbox/images/ld.gif) center center no-repeat #000
+}
+
+.lightBox .bg_img_stand {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  appearance: none;
+}
+
+.lightBox .bg_img_stand_img {
+  appearance: none;
+}
+
+.lightBox .bg_img_stand img {
+  position: relative;
+  display: block;
+  max-height: 100%;
+  max-width: calc(100% - 100px);
+  z-index: -1;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none
+}
+
+.trnasitionClass {
+  -webkit-transition: all .5s linear 0s;
+  -moz-transition: all .5s linear 0s;
+  -ms-transition: all .5s linear 0s;
+  -o-transition: all .5s linear 0s;
+  transition: all .5s linear 0s
+}
+
+.lightBox .side_bar {
+  position: absolute;
+  width: 320px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  -webkit-box-shadow: inset 1px 1px 10px 0 rgba(244, 244, 244, 1);
+  -moz-box-shadow: inset 1px 1px 10px 0 rgba(244, 244, 244, 1);
+  box-shadow: inset 1px 1px 10px 0 rgba(244, 244, 244, 1)
+}
+
+.lightBox .dismiss {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  z-index: 999999999
+}
+
+.lightBox .dismiss:hover {
+  background: #232323
+}
+
+.lightBox .dismiss > img {
+  display: block;
+  line-height: 40px;
+  margin: 13px auto;
+  vertical-align: middle;
+}
+
+.lightBox .user_info {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  float: left;
+  background: url(../js/fameuz_lightbox/images/id_small.gif) center center no-repeat;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%
+}
+
+.lightBox .loadingData {
+  background: url(../js/fameuz_lightbox/images/id_small.gif) center center no-repeat #fff
+}
+
+.lightBox .user_info img {
+  width: 100%;
+  min-height: 100%
+}
+
+.lightBox .user_data {
+  width: 70%;
+  float: left;
+  padding: 5px
+}
+
+.lightBox .user_data h3,
+.user_data p {
+  margin: 0
+}
+
+.lightBox .user_data h3 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4e4f53
+}
+
+.lightBox .user_data p {
+  font-size: 12px
+}
+
+.lightBox .user-data {
+  padding: 10px;
+  float: none;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  height: 71px
+}
+
+.lightBox .footer_lightBox {
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 999
+}
+
+.lightBox .next,
+.lightBox .prev {
+  position: absolute;
+  display: block;
+  top: 50%;
+  margin-top: -10px;
+  cursor: pointer;
+  z-index: 999999
+}
+
+.lightBox .prev {
+  left: 3%
+}
+
+.lightBox .next {
+  right: 3%
+}
+
+.lightBox .zoom {
+  background: #000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  z-index: 99999;
+  border: 1px solid #232323
+}
+
+.lightBox .zoom i {
+  padding: 0 15px;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+  line-height: 38px;
+  border-right: 1px solid #232323
+}
+
+.lightBox .zoom i:hover {
+  background: #232323
+}
+
+.lightBox .zoom img {
+  cursor: pointer
+}
+
+.lightBox .vidSection {
+  display: none
+}
+
+.lightBox .review_message,
+.lightBox .share_like_box .like,
+.lightBox .share_like_box .makeCover,
+.lightBox .share_like_box .share {
+  display: inline-block;
+  vertical-align: top
+}
+
+.lightBox iframe {
+  position: absolute
+}
+
+.lightBox .share_like_box {
+  background: #000;
+  bottom: 0;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  z-index: 99;
+  border-top: 1px solid #232323;
+  padding: 10px 13px 13px
+}
+
+.lightBox .review_message {
+  background: #afb420;
+  border-radius: 2px
+}
+
+.lightBox .share_like_box .like {
+  margin: 0 2px
+}
+
+.lightBox .share_like_box .worked {
+  float: right
+}
+
+.hideSec {
+  display: none!important
+}
+
+.lightBox .share_like_box .review_message {
+  display: none
+}
+
+.lightBox .share_like_box .review_message a {
+  border-radius: 2px 0 0 2px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 10px 6px 14px
+}
+
+.lightBox .share_like_box .review_message a:hover {
+  background: #9ba01a
+}
+
+.lightBox .share_like_box .review_message a+a {
+  background: url(../images/review_border.png) left top repeat-y rgba(0, 0, 0, 0);
+  border-radius: 0 2px 2px 0;
+  margin-left: -4px
+}
+
+.lightBox .share_like_box .review_message a i {
+  font-size: 12px;
+  margin-left: 2px;
+  margin-top: 4px;
+  vertical-align: top
+}
+
+.lightBox .share_like_box .like a {
+  background: #ff9e05;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 10px
+}
+
+.lightBox .share_like_box .like a:hover {
+  background: #dc8803
+}
+
+.lightBox .share_like_box .like a.liked i,
+.share_like_box .like a.liked {
+  color: #a06201
+}
+
+.lightBox .share_like_box .share a {
+  background: #3b5998;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 10px
+}
+
+.lightBox .makeCover_btn,
+.lightBox .share_like_box .worked a {
+  border-radius: 2px;
+  color: #787777;
+  display: inline-block;
+  font-size: 13px
+}
+
+.lightBox .makeCover_btn {
+  background: #fff;
+  font-weight: 500;
+  padding: 6px 10px;
+  margin-left: 4px
+}
+
+.lightBox .share_like_box .share a:hover {
+  background: #204490
+}
+
+.lightBox .share_like_box .like a i,
+.lightBox .share_like_box .worked a i,
+.makeCover_btn i,
+.share_like_box .share a i {
+  margin-right: 6px;
+  margin-top: 2px;
+  vertical-align: top
+}
+
+.lightBox .share_like_box .worked a {
+  background: #fff;
+  font-weight: 700;
+  padding: 5px 10px;
+  border: 1px solid #cdc2b1
+}
+
+.lightBox .share_like_box .worked a:hover {
+  background: #4e4f53;
+  color: #fff;
+  border-color: #4e4f53
+}
+
+.lightBox .fl-ratingBox {
+	display: inline-block;
+	padding: 6px 10px;
+	margin-left: 18px;
+}
+
+.lightBox .fl-ratingBox > b {
+	color: #f9f9f9;
+	font-weight: normal;
+	margin-left: 7px;
+}
+
+.lightBox .fl-stars {
+	font-size: 14px;
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: gold;
+}
+
+.lightBox .fl-stars .fa-star-o, .lightBox .fl-stars .fa-star {
+	cursor: pointer;
+}
+
+.lightBox .scale {
+  width: 150%;
+  height: 150%;
+  margin-top: 0!important
+}
+
+.lightBox .img_small_prev_overlay {
+  width: 150px;
+  height: 170px;
+  background: rgba(0, 0, 0, .7);
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  z-index: 99;
+  border: 1px solid grey;
+  overflow: hidden;
+  display: none
+}
+
+.lightBox .img_small_prev {
+  height: 150px;
+  width: 100%;
+  margin: auto
+}
+
+.lightBox .img_small_prev img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  width: auto;
+  margin: auto
+}
+
+.lightBox .zoom_value {
+  width: 100%;
+  border-top: 1px solid grey;
+  height: 19px;
+  text-align: center;
+  color: grey;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0
+}
+
+.lightBox .zoom_value p {
+  line-height: 16px!important
+}
+
+.lightBox .drag_overlay {
+  position: relative;
+  height: 100%
+}
+
+.lightBox .drag_zoom {
+  width: 90%;
+  height: 50px;
+  border: 1px solid #fff;
+  position: absolute;
+  left: 5%;
+  top: 10px;
+  cursor: move;
+  background: rgba(0, 0, 0, 0)
+}
+
+.lightBox .shared {
+  background: #204490!important;
+  color: #3b5998!important
+}
+
+.lightBox .like_countz {
+  border-bottom: 1px solid #ccc;
+  height: 30px;
+  width: 100%;
+  color: #9f9e9e
+}
+
+.lightBox .like_countz>ul {
+  padding: 0 5px
+}
+
+.lightBox .like_countz li {
+  border-right: 1px solid #ccc;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 29px;
+  padding: 0 21px
+}
+
+.lightBox .like_countz ul li i {
+  margin-right: 6px
+}
+
+#middelSec {
+  overflow: hidden;
+  position: relative;
+  height: 623px
+}
+
+.lightBox .dragMe {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: red;
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 9999999999999999!important;
+  cursor: pointer
+}
+
+.lightBox .masnoryDiv {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #ccc
+}
+
+.lightBox .masnoryDiv ul {
+  width: 100%;
+  height: auto;
+  overflow: hidden
+}
+
+.lightBox .masnoryDiv ul li {
+  width: 33.2333%;
+  float: left;
+  min-height: 108px;
+  height: 106px;
+  background: url(../js/fameuz_lightbox/images/id_small.gif) center center no-repeat #fff;
+  border-right: 1px solid #ededed;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden
+}
+
+.lightBox .masnoryDiv ul li a img {
+  width: auto;
+  height: auto
+}
+
+.lightBox .no_images {
+  background: url(images/no_img.jpg) center center no-repeat #000
+}
+
+.lightBox .loadMorePicz {
+  display: block;
+  padding: 5px;
+  background: #ededed;
+  font-size: 12px;
+  text-align: center;
+  color: #000
+}
+
+.lightBox .desc_photoz {
+  display: none
+}
+
+.like_countz li:last-child {
+  border: none!important
+}
+
+.switch {
+  position: relative
+}
+
+.switch .drop_down {
+  position: absolute;
+  left: 0;
+  width: 100px;
+  top: 37px;
+  display: none;
+  background: #000;
+  border: 1px solid #232323
+}
+
+.switch .drop_down span {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Roboto, sans-serif
+}
+
+.switch .drop_down span:first-child {
+  border-bottom: 1px solid #232323
+}
+
+.switch:hover .drop_down {
+  display: block
+}
+
+.switch .drop_down span:hover {
+  background: #232323
+}
+
+.lightBox .desc_photoz p {
+  margin-bottom: 0!important
+}
+
+.toggleBg {
+  right: 320px!important;
+  left: 0!important
+}
+
+.toggleSidebar {
+  right: 0!important;
+  z-index: 9!important;
+  left: auto!important
+}
+
+.comment i {
+  margin-left: 4px
+}
+
+.alertClose.alert-success.alert-dismissible {
+  padding: 4px 10px;
+  font-size: 12px
+}
+
+
+/*
+	2] Image_popup.css
+*/
+
+.lightBox .slider_thumb {
+  position: relative;
+  overflow: hidden
+}
+
+.lightBox .slider_thumb_box {
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 10px;
+  margin-bottom: 2px;
+  overflow: hidden
+}
+
+.lightBox .slider_thumb_box ul {
+  width: 100%!important;
+  transform: none!important
+}
+
+.lightBox .slider_thumb_box li {
+  display: block!important;
+  float: left!important;
+  width: 30%!important;
+  margin-left: 4px;
+  margin-bottom: 4px
+}
+
+.lightBox .slider_thumb_box li img {
+  width: 100%
+}
+
+.lightBox .comments {
+  border: 1px solid #e3e2e2;
+  bottom: 77px;
+  left: 0;
+  position: static;
+  width: 100%
+}
+
+.lightBox .comment_shadow {
+  position: relative
+}
+
+.lightBox .drop_shasdow {
+  position: absolute;
+  top: -20px;
+  width: 100%;
+  box-sizing: border-box;
+  background: url(../images/drop_shadow.png) center bottom repeat-x;
+  height: 20px
+}
+
+.lightBox .loadMoreTime a {
+  background-color: #d6d6d6;
+  color: #9f9e9e;
+  display: block;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 0;
+  text-align: center
+}
+
+.lightBox .comments .cmnt_cnt {
+  overflow: hidden;
+  position: relative
+}
+
+.lightBox .comments .cmnt_cnt .comment {
+  padding: 10px 6px;
+  position: relative
+}
+
+.lightBox .comments .cmnt_cnt .comment+.comment {
+  border-top: 1px solid #fff;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, .13)
+}
+
+.lightBox .comments .comment span.commnt_content,
+.lightBox .comments .comment .prof_pic {
+  display: block;
+  float: left
+}
+
+.lightBox .comments .comment .prof_pic {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  overflow: hidden
+}
+
+.lightBox .comments .comment span.commnt_content {
+  float: none;
+  margin-left: 48px
+}
+
+.lightBox .comments .comment span.name {
+  color: #4e4f53;
+  font-size: 13px;
+  font-weight: 500
+}
+
+.lightBox .comments .comment span.time {
+  color: #939395;
+  font-size: 10px;
+  font-weight: 400;
+  float: right;
+  padding-top: 3px
+}
+
+.lightBox .comments .comment span.text {
+  color: #575757;
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px
+}
+
+.lightBox .comment_box {
+  bottom: 0;
+  left: 0;
+  padding: 12px 5px 12px 4px;
+  position: absolute;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  background: #fff
+}
+
+.lightBox .comment_box .prof_thump {
+  border-radius: 50%;
+  float: left;
+  height: 38px;
+  overflow: hidden;
+  width: 38px
+}
+
+.lightBox .comment_box .prof_thump img {
+  border-radius: 50px
+}
+
+.lightBox .comment_box .post_commnt {
+  float: left;
+  width: 84%
+}
+
+.lightBox .comment_box .post_commnt .textarea {
+  padding-left: 10px;
+  position: relative
+}
+
+.lightBox .comment_box .post_commnt .textarea .smile_icon {
+  position: absolute;
+  right: 6px;
+  top: 0;
+  color: #d1cfcf;
+  z-index: 99;
+  font-size: 17px
+}
+
+.lightBox .comment_box .post_commnt textarea {
+  border: 1px solid #bec0c0;
+  height: 32px;
+  padding: 4px
+}
+
+.lightBox .comment_box .post_commnt .arrow {
+  margin-left: 2px;
+  margin-top: 4px;
+  position: absolute;
+  z-index: 99
+}
+
+.lightBox .comment_box .post_commnt .textarea small {
+  font-size: 10px;
+  font-weight: 400;
+  color: #8a8b8c
+}
+
+.lightBox .comment_box .post_commnt .cmt_submit {
+  margin-top: -7px
+}
+
+.lightBox .comment_box .post_commnt input[type=submit] {
+  font-size: 12px;
+  font-weight: 400;
+  padding: 1px 9px
+}
+
+.cd-popup-container .left_side .share_like_box .review_message a:hover {
+  background: #9ba01a
+}
+
+.cd-popup-container .left_side .share_like_box .review_message a+a {
+  background: url(../images/review_border.png) left top repeat-y rgba(0, 0, 0, 0);
+  border-radius: 0 2px 2px 0;
+  margin-left: -4px
+}
+
+.cd-popup-container .left_side .share_like_box .review_message a i {
+  font-size: 12px;
+  margin-left: 2px;
+  margin-top: 4px;
+  vertical-align: top
+}
+
+.cd-popup-container .left_side .share_like_box .like a {
+  background: #ff9e05;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 10px
+}
+
+.cd-popup-container .left_side .share_like_box .like a:hover {
+  background: #dc8803
+}
+
+.cd-popup-container .left_side .share_like_box .like a.liked,
+.cd-popup-container .left_side .share_like_box .like a.liked i {
+  color: #a06201
+}
+
+.cd-popup-container .left_side .share_like_box .share a {
+  background: #3b5998;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 10px
+}
+
+.cd-popup-container .left_side .share_like_box .share a:hover {
+  background: #204490
+}
+
+.cd-popup-container .left_side .share_like_box .like a i,
+.cd-popup-container .left_side .share_like_box .share a i,
+.cd-popup-container .left_side .share_like_box .worked a i {
+  margin-right: 6px;
+  margin-top: 2px;
+  vertical-align: top
+}
+
+.cd-popup-container .left_side .share_like_box .worked a {
+  background: #fff;
+  border-radius: 2px;
+  color: #787777;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border: 1px solid #cdc2b1
+}
+
+.cd-popup-container .left_side .share_like_box .worked a:hover {
+  background: #4e4f53;
+  color: #fff;
+  border-color: #4e4f53
+}
+
+.close_popup {
+  background: #f5f5f5;
+  cursor: pointer;
+  padding: 2px 6px 3px 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  border-radius: 0!important
+}
+
+.ajaxloader {
+  display: none;
+  position: absolute;
+  width: 100%
+}
+
+.comments .comment .likecom {
+  color: #939395;
+  font-size: 10px;
+  font-weight: 400;
+  padding-right: 10px;
+  width: 50%;
+  margin-top: 3px
+}
+
+.comments .comment .likecom a {
+  background-color: inherit!important;
+  text-align: left
+}
+
+.comments .comment .likecom a.liked {
+  color: #ff9e05
+}
+
+.deletComment {
+  padding: 7px;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  opacity: .2
+}
+
+.deletComment a {
+  background-color: inherit!important;
+  color: #4e4f53;
+  font-size: 16px
+}
+
+.imgUserBox {
+  overflow: hidden;
+  padding: 10px
+}
+
+.imgUserBox .prof_pic {
+  border-radius: 50%;
+  height: 38px;
+  overflow: hidden;
+  width: 38px;
+  display: block;
+  float: left
+}
+
+.imgUserBox .commnt_content {
+  float: left;
+  margin-left: 10px;
+  width: 80%
+}
+
+.imgUserBox span.name {
+  color: #4E4F53;
+  font-size: 13px;
+  font-weight: 600
+}
+
+.imgUserBox span.text {
+  color: #4E4F53;
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px
+}
+
+.imgUserBox span.likestr {
+  font-size: 12px;
+  color: #575757
+}
+
+a.delPopImg {
+  color: #4e4f56
+}
+
+a.delPopImg:hover {
+  color: #ff9e05
+}
+
+#img_pop_form label {
+  font-size: 12px;
+  margin-right: 2px
+}
+
+#img_pop_form #img_descr {
+  font-size: 12px
+}
+
+.delPopImg {
+  font-size: 11px;
+  font-weight: 700;
+  color: #aaa
+}
+
+#post_img_descr {
+  text-transform: capitalize;
+  font-weight: 700
+}
+
+.lightBox .readP {
+  margin-bottom: 0!important
+}
+
+.lightBox .readP .readMore {
+  color: #9BA01A
+}
+
+
+/*
+	3] JW_player.css
+*/
+
+#thePlayer_logo {
+  display: none
+}
+
+#thePlayer_controlbar .jwcapLeft,
+#thePlayer_controlbar .jwcapRight,
+.html5-watermark[src*="base64,"],
+.html5-watermark[src*="/img/pixel"] {
+  display: none;
+  background: 0 0!important
+}
+
+#thePlayer_controlbar .jwtimeSliderProgress,
+#thePlayer_controlbar .jwtimeSliderProgressCapLeft {
+  background: url(1.png) center center/1px 8px repeat-x rgba(167, 173, 39, 0)!important
+}
+
+#thePlayer_controlbar .jwtimeSliderRail {
+  background: url(2.png) center center/1px 8px repeat-x rgba(167, 173, 39, 0)!important
+}
+
+#thePlayer_controlbar .jwtimeSliderBufferCapRight,
+#thePlayer_controlbar .jwtimeSliderRailCapRight {
+  background: url(2.png) center center/5px 8px repeat-x rgba(167, 173, 39, 0)!important
+}
+
+#thePlayer_controlbar .jwbackground {
+  left: 0!important;
+  right: 0!important
+}
+
+.jw-tab-focus:focus {
+  outline: 0!important
+}

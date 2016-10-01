@@ -1,0 +1,41 @@
+#thePlayer_logo{
+	display:none;
+}
+.html5-watermark[src*="base64,"], .html5-watermark[src*="/img/pixel"],#thePlayer_controlbar .jwcapRight,#thePlayer_controlbar .jwcapLeft{
+	display:none;
+	background:none !important;
+}
+#thePlayer_controlbar .jwtimeSliderProgress{
+background:url("1.png") repeat-x scroll center center / 1px 8px rgba(167,173,39,0) !important;
+}
+#thePlayer_controlbar .jwtimeSliderProgressCapLeft{
+	background:url("1.png") repeat-x scroll center center / 1px 8px rgba(167,173,39,0) !important;
+}
+#thePlayer_controlbar .jwtimeSliderRail{
+	background:url("2.png") repeat-x scroll center center / 1px 8px rgba(167,173,39,0) !important;
+}
+#thePlayer_controlbar .jwtimeSliderRailCapRight{
+	background:url("2.png") repeat-x scroll center center / 5px 8px rgba(167,173,39,0) !important;
+}
+#thePlayer_controlbar .jwtimeSliderBufferCapRight{
+	background:url("2.png") repeat-x scroll center center / 5px 8px rgba(167,173,39,0) !important;
+}/*
+span.jwcontrolbar .jwcenter{
+	position: absolute;
+	top: -18px;
+	width: 100%;
+}
+#thePlayer_controlbar{
+	max-width:820px !important;
+}
+#thePlayer_controlbar .jwbackground{
+	left:-10px !important;
+	right:-10px !important;
+}*/
+#thePlayer_controlbar .jwbackground{
+	left:0px !important;
+	right:0px !important;
+}
+.jw-tab-focus:focus{
+	outline:none !important;
+}

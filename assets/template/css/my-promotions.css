@@ -1,0 +1,44 @@
+body,
+.top_section {
+  background: #ededed !important;
+}
+
+.user_profile .sidebar .booking .t_data .data_content .main_content {
+  width: 100% !important;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .duration {
+  width: 36% !important;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .delete .fa.fa-pencil {
+  color: #878788;
+  font-size: 17px;
+  padding-left: 5px;
+}
+
+.descrImage img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.bookReq .w_details {
+  width: 100% !important;
+  background: none !important;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .w_details {
+  width: 63%;
+}
+
+.bookReq .w_details .view {
+  color: #4E4F53;
+}
+
+.bookReq .w_details .view:hover {
+  color: #afb420;
+}
+
+.read {
+  font-weight: 400 !important;
+}

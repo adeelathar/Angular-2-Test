@@ -1,0 +1,128 @@
+@import url("videos.css");
+.search_videos .videos_slider_section {
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+.search_videos .videos_slider_section .item {
+  height: auto !important;
+  padding: 10px 15px;
+  background: #fff;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(209, 209, 209, 1);
+}
+
+.search_videos .videos_slider_section li+li {
+  margin-top: 10px;
+}
+
+.search_videos .videos_slider_section .item a.vidimg {
+  position: relative;
+  height: 146px;
+}
+
+.search_videos .videos_slider_section .item .vidDescr {
+  padding: 0px 10px;
+  position: relative;
+  min-height: 146px;
+}
+
+.search_videos .videos_slider_section .item .vidDescr h2 {
+  font-size: 16px;
+  font-weight: bold;
+  min-height: 21px;
+  margin-bottom: 0px !important;
+}
+
+.search_videos .videos_slider_section .item .vidDescr h2 > a {
+  color: #4e4f53;
+  display: inline-block;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.search_videos .videos_slider_section .item .vidDescr p {
+  margin-top: 5px !important;
+}
+
+.publishedBy i {
+  color: #a7a6a6;
+}
+
+.no-padding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.search_videos .vidDescr .rating_box {
+  background: url("../images/rating_star_white.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 11px;
+  position: relative;
+  vertical-align: sub;
+  width: 68px;
+  margin-left: 3px;
+}
+
+.search_videos .vidDescr .rating_yellow {
+  background: url("../images/rating_star_yellow.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.video_info .published_date {
+  font-size: 11px;
+  text-align: right;
+  color: #A7A6A6;
+}
+
+.likeWidget {
+  bottom: 0;
+  left: 15px;
+  color: #c6c6c6;
+  font-size: 11px;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+}
+
+.search_videos .videos_slider_section .item .vidDescr .likeWidget .fa {
+  font-size: 13px;
+}
+
+.search_videos .videos_slider_section .item .vidDescr .likeWidget span+span {
+  padding-left: 15px;
+}
+
+.search_videos .videos_slider_section .item .vidDescr .publishedBy span.publishedBySpan {
+  color: #A7A6A6;
+}
+
+.search_videos .videos_slider_section .item .vidDescr .publishedBy a {
+  color: #4E4F53;
+}
+
+.item .video_duration {
+  right: 1px;
+}
+
+.search_videos .item h1 {
+  color: #4e4f53;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.search_videos .item p {
+  font-size: 12px;
+  line-height: 13px;
+  margin-bottom: 0;
+}
+
+.promoted_video {
+  color: #ff9e05;
+  font-size: 10px;
+  text-align: right;
+}

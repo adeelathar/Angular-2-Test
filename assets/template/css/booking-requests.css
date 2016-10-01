@@ -1,0 +1,591 @@
+body,
+.top_section {
+  background: #f9f9f9;
+}
+
+
+/*.user_profile .content{
+	width:auto;
+	float:none;
+}	
+.user_profile .content .profile_content{
+	width:900px;	
+}*/
+
+.user_profile .content {
+  width: 100%;
+}
+
+.user_profile .sidebar {
+  width: 100%;
+}
+
+.user_profile .sidebar .search .search_box {
+  width: 300px;
+  margin-bottom: 13px;
+}
+
+.user_profile .sidebar .booking {
+  background-color: #fff;
+  border: 1px solid #ededed;
+  padding: 18px 20px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  behavior: url(css/PIE.htc);
+}
+
+.user_profile .sidebar .search_box input[type="text"] {
+  padding: 3px 35px 3px 9px;
+}
+
+.user_profile .sidebar .booking h5 {
+  background-image: url("../images/loudspeaker.png");
+  background-repeat: no-repeat;
+  color: #4e4f53;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 25px;
+  margin-bottom: 0;
+}
+
+.user_profile .sidebar .booking .tab {
+  background-color: #8a8b8d;
+  margin-top: 8px;
+}
+
+.user_profile .sidebar .booking .tab ul li {
+  float: left;
+  background-image: url("../images/tab_bg.jpg");
+  background-position: right center;
+  background-repeat: repeat-y;
+}
+
+.user_profile .sidebar .booking .tab ul li a {
+  color: #fff;
+  display: block;
+  font-weight: 500;
+  padding: 3px 24px;
+}
+
+.user_profile .sidebar .booking .tab ul li.active a {
+  background-color: #afb420;
+  background-image: url("../images/top_arrow.png");
+  background-position: 15% bottom;
+  background-repeat: no-repeat;
+}
+
+.user_profile .sidebar .booking .table_hed {
+  background-color: #f9f8f8;
+  color: #8a8b8d;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 7px 0;
+}
+
+.user_profile .sidebar .booking .table_hed i {
+  font-size: 16px;
+  margin-right: 6px;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed {
+  border-top: 1px solid #e4e4e4;
+  color: #4e4f53;
+  font-size: 13px;
+  padding: 14px 0;
+}
+
+.user_profile .sidebar .booking .t_data.active .data_hed,
+.user_profile .sidebar .booking .t_data:hover .data_hed {
+  background-color: #ededea;
+}
+
+.unread {
+  background-color: #ededea;
+  font-weight: 500;
+}
+
+.user_profile .sidebar .booking .t_data .data_content {
+  display: none;
+  margin-bottom: 10px;
+  background: #e8e6e6;
+}
+
+.user_profile .sidebar .booking .t_data.active .data_content {
+  display: block;
+}
+
+.user_profile .sidebar .booking .t_data.active .data_hed .name {
+  font-size: 15px;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .hash .details {
+  background-color: #8a8b8d;
+  border-radius: 4px;
+  color: #fff;
+  display: inline;
+  font-size: 12px;
+  padding: 5px 7px;
+  cursor: pointer;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .hash .details span.fa.fa-angle-down {
+  font-size: 19px;
+  font-weight: 500;
+  padding-left: 5px;
+  vertical-align: top;
+  margin-top: 1px;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .hash .count {
+  padding: 0 15px;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .name {
+  font-size: 15px;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .hash .detail_setting {
+  border: 1px solid #bebebb;
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 3px 6px;
+  cursor: pointer;
+  position: relative;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .hash .detail_setting .setting_option {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #cbcaca;
+  border-radius: 3px;
+  color: #8b8c8d;
+  font-size: 11px;
+  font-weight: normal;
+  padding: 5px 10px;
+  position: absolute;
+  text-align: right;
+  width: 128px;
+  z-index: 99999999;
+  right: 0px;
+  top: 26px;
+  display: none;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .hash .detail_setting .setting_option .arrow {
+  position: absolute;
+  right: 10px;
+  top: -13px;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .status .squrae {
+  display: inline-block;
+  height: 8px;
+  margin-right: 6px;
+  width: 8px;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .status .squrae.upcoming {
+  background-color: #3f99e6;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .status .squrae.completed {
+  background-color: #afb420;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .status .squrae.pending {
+  background-color: #b42020;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .status .squrae.expired {
+  background-color: #ff9e05;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .delete .fa.fa-trash {
+  font-size: 17px;
+  color: #878788;
+}
+
+.user_profile .sidebar .booking .t_data .data_hed .delete .fa.fa-pencil {
+  font-size: 17px;
+  color: #878788;
+}
+
+.user_profile .sidebar .booking .t_data .data_content .main_content {
+  background-color: #f4f3f3;
+  padding: 20px;
+  width: 77%;
+  float: left;
+  min-height: 395px;
+}
+
+.user_profile .sidebar .booking .t_data .data_content .side_box {
+  background-color: #e8e6e6;
+  float: left;
+  text-align: center;
+  width: 23%;
+  padding: 26px 0;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content h5 {
+  background-image: none;
+  padding-left: 0;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content p {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 7px;
+  margin-bottom: 35px;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content h3 {
+  border-bottom: 1px solid #d2d2d2;
+  color: #4e4f53;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 11px;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content h3 span {
+  background-color: #f4f3f3;
+  padding-right: 24px;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .w_details {
+  background-image: url("../images/duration_brdr.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  float: left;
+  padding-right: 8px;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .w_details .detail_hed {
+  float: left;
+  width: 42%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .w_details .detail_hed i {
+  width: 18px;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .w_details .detail_con {
+  float: left;
+  width: 50%;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .w_details .detail_colon {
+  float: left;
+  width: 5%;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .w_details .detail_row + .detail_row {
+  background-image: url("../images/detail_brdr.jpg");
+  background-position: center top;
+  background-repeat: repeat-x;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .w_details .detail_con.download {
+  background-image: url("../images/download.png");
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  color: #4e4f53;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .duration {
+  float: left;
+  padding: 20px 25px;
+  width: 50%;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .duration h4 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #4e4f53;
+  margin-bottom: 15px;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date {
+  background-color: #4e4f53;
+  color: #fff;
+  float: left;
+  text-align: center;
+  width: 107px;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date + .date {
+  margin-left: 22px;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date .from {
+  background-color: #8a8b8d;
+  border-radius: 5px 5px 0 0;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 6px 0;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date .day {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date .month {
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.user_profile .sidebar .booking .t_data .data_content .side_box .thump img {
+  border-radius: 230px;
+  width: 132px;
+  height: 132px;
+}
+
+.user_profile .sidebar .booking .t_data .data_content .side_box .prof_name {
+  color: #4e4f53;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.user_profile .sidebar .booking .t_data .data_content .side_box .prof_user_name {
+  border-bottom: 1px solid #8a8b8d;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0 5% 23px;
+  padding-bottom: 18px;
+  width: 90%;
+}
+
+.user_profile .sidebar .booking .t_data .data_content .side_box p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.user_profile .sidebar .booking .t_data .data_content .side_box a.view {
+  background-color: #afb420;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 9px 33px;
+  margin-top: 25px;
+}
+
+.side_box span.bold {
+  font-weight: 500;
+}
+
+.booking_accept {
+  float: left;
+  margin: 15px 0px;
+  font-weight: 500;
+  text-align: center;
+  width: 90%;
+}
+
+.booking_accept li {
+  display: inline-block;
+}
+
+.booking_accept li > a {
+  background-color: #4E4F53;
+  color: #ffffff;
+  padding: 5px 30px;
+  border-radius: 4px;
+}
+
+.booking_accept li > a.accepted_status,
+.booking_accept li > a.accepted_status:hover {
+  color: #AFB420;
+  background: none;
+}
+
+.booking_accept li > a.declined_status,
+.booking_accept li > a.declined_status:hover,
+.booking_accept li > a.expr_status,
+.booking_accept li > a.expr_status:hover {
+  color: #DF0000;
+  background: none;
+}
+
+.booking_accept li > a:hover {
+  background-color: #8A8B8D;
+}
+
+.delete_booking {
+  margin-right: 2px;
+}
+
+.search input[type="text"] {
+  padding: 3px 15px;
+  border: 1px solid #ccc;
+}
+
+
+/*--------------------------*/
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+  .user_profile .sidebar .booking .table_hed i {
+    display: block;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .user_profile .content {
+    float: left;
+  }
+  .user_profile .sidebar {
+    width: 676px;
+    float: right;
+  }
+  .user_profile .sidebar .booking .t_data .data_hed .hash {
+    float: none;
+    width: auto;
+    padding: 8px;
+  }
+  .user_profile .sidebar .booking .t_data .data_hed .name {
+    padding-left: 24px;
+    margin-right: 15px;
+    width: auto;
+  }
+  .user_profile .sidebar .booking .table .data_content .main_content .w_details {
+    width: auto;
+    float: none;
+  }
+  .user_profile .sidebar .booking .table .data_content .main_content .duration {
+    width: auto;
+    float: none;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width:992px) {
+  .user_profile .sidebar .booking .t_data .data_hed .hash .count {
+    padding: 0 5px;
+  }
+  .user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date + .date {
+    margin-left: 10;
+  }
+  .user_profile .content {
+    float: none;
+    width: auto;
+  }
+  .user_profile .sidebar {
+    float: none;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width:769px) and (max-width:992px) {}
+
+@media only screen and (max-width:769px) {
+  .user_profile .sidebar .booking .t_data .data_hed .hash {
+    text-align: left;
+  }
+  .user_profile .sidebar .booking .t_data .data_hed .name,
+  .user_profile .sidebar .booking .t_data .data_hed .s_date,
+  .user_profile .sidebar .booking .t_data .data_hed .e_date,
+  .user_profile .sidebar .booking .t_data .data_hed .budget,
+  .user_profile .sidebar .booking .t_data .data_hed .country,
+  .user_profile .sidebar .booking .t_data .data_hed .status,
+  .user_profile .sidebar .booking .t_data .data_hed .delete {
+    float: none;
+    text-align: left;
+    width: auto;
+    padding-left: 15px;
+    margin-bottom: 5px;
+  }
+  .user_profile .sidebar .booking .table_hed .hash,
+  .user_profile .sidebar .booking .table_hed .name,
+  .user_profile .sidebar .booking .table_hed .s_date,
+  .user_profile .sidebar .booking .table_hed .e_date,
+  .user_profile .sidebar .booking .table_hed .budget,
+  .user_profile .sidebar .booking .table_hed .country,
+  .user_profile .sidebar .booking .table_hed .status,
+  .user_profile .sidebar .booking .table_hed .delete {
+    float: none;
+    text-align: left;
+    width: auto;
+    padding-left: 15px;
+    margin-bottom: 5px;
+  }
+  .user_profile .sidebar .booking .table_hed i {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width:690px) {
+  .user_profile .sidebar .booking .t_data .data_content .main_content {
+    float: none;
+    width: auto;
+  }
+  .user_profile .sidebar .booking .t_data .data_content .side_box {
+    float: none;
+    width: auto;
+  }
+  .user_profile .sidebar .booking .table_hed {
+    text-align: center;
+  }
+  .user_profile .sidebar .booking .t_data.active .data_hed {
+    text-align: center;
+  }
+  .user_profile .sidebar .booking .t_data .data_hed .hash .detail_setting {
+    display: inline-block;
+    margin-top: 9px;
+  }
+  .user_profile .sidebar .booking .t_data .data_hed .hash .details span.fa.fa-angle-down {
+    margin-top: 14px;
+  }
+}
+
+@media only screen and (max-width:639px) {
+  .user_profile .sidebar .booking .tab ul li {
+    float: none;
+  }
+  .user_profile .sidebar .booking .tab ul li.active a {
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width:579px) {
+  .user_profile .sidebar .booking .table .data_content .main_content .w_details {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: none;
+    width: auto;
+  }
+  .user_profile .sidebar .booking .table .data_content .main_content .duration {
+    border-top: 1px solid #b9b9b9;
+    float: none;
+    margin-top: 20px;
+    padding: 20px 0;
+    width: auto;
+  }
+  .user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date + .date {
+    margin-left: 22px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width:468px) {}
+
+@media only screen and (max-width:356px) {
+  .user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date,
+  .user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date + .date {
+    float: none;
+    margin: 0px auto;
+    margin-bottom: 10px;
+  }
+}
+
+
+/*------------*/

@@ -1,0 +1,316 @@
+@import url("profile-visitor-list.css");
+.top_status_bar {
+  width: 100%;
+  height: 56px;
+  background: #E6E6E6;
+}
+
+.full_white_container,
+.block_container,
+.cover_user_photo,
+.right_container,
+.options_contianer {
+  background: #fff;
+  width: 100%;
+}
+
+.top_status_bar,
+.block_container {
+  -webkit-box-shadow: 2px 1px 3px 0px rgba(202, 202, 202, 1);
+  -moz-box-shadow: 2px 1px 3px 0px rgba(202, 202, 202, 1);
+  box-shadow: 2px 1px 3px 0px rgba(202, 202, 202, 1);
+}
+
+.block_container {
+  margin-bottom: 10px;
+}
+
+.full_white_container {
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.top_bar_head {
+  font-size: 18px;
+  line-height: 56px;
+}
+
+.name_user,
+.top_bar_head,
+.promote_profile_Banner h3,
+.optn_head h4,
+.sub_head {
+  margin: 0;
+  font-weight: 500;
+  color: #313131;
+}
+
+.top_bar_head img {
+  margin-right: 5px;
+}
+
+.left_container,
+.user_head,
+.promote_info {
+  padding: 10px;
+}
+
+.left_container {
+  width: 383px;
+  height: auto;
+  background: #e6e6e6;
+  border: 1px solid #dedede;
+}
+
+.right_container,
+.left_container {
+  float: left;
+}
+
+.img_user_defined {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  overflow: hidden;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.user_info_defined,
+.img_user_defined {
+  float: left;
+}
+
+.name_user {
+  font-size: 16px;
+}
+
+.cover_user_photo {
+  height: 180px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.menus_under_photo ul li,
+.menus_under_photo ul li a,
+.promote_info ul li a,
+.select_optns ul li,
+.select_optns ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #313131;
+  font-size: 13px;
+}
+
+.menus_under_photo ul li a {
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+.menus_under_photo ul li+li {
+  border-left: 1px solid #ccc;
+}
+
+.promote_info,
+.promote_profile_Banner,
+.optn_sectn,
+.select_optns ul {
+  border-radius: 4px;
+}
+
+.promote_info ul li {
+  line-height: 23px;
+  padding-left: 20px;
+  background: url('../images/arw_round_right.png') no-repeat left center;
+}
+
+.right_container {
+  width: 786px;
+  height: 300px;
+  padding: 20px;
+}
+
+.promote_profile_Banner {
+  width: 100%;
+  height: auto;
+  border: 1px solid #dddddd;
+  padding: 20px 20px 20px 130px;
+  background: url('../images/promotion_ico.png') no-repeat 20px center #f7f7f7;
+}
+
+.promote_profile_Banner h3 {
+  font-size: 17px;
+}
+
+.promote_profile_Banner p {
+  margin: 5px 0px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.options_contianer {
+  margin-top: 10px;
+}
+
+.optn_head h4 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.optn_sectn {
+  background: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+
+.optn_sectn .sub_head {
+  padding-right: 20px;
+  font-size: 14px;
+  display: inline-block;
+  line-height: 15px;
+  background: url('../images/inof.png') no-repeat right center;
+  margin-bottom: 10px;
+}
+
+.optn_sectn .select_optns .form-control,
+.select_optns ul {
+  border: 1px solid #ddd;
+}
+
+.select_optns ul {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbfbfb+0,ededed+100 */
+  background: #fbfbfb;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #fbfbfb 0%, #ededed 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fbfbfb 0%, #ededed 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fbfbfb 0%, #ededed 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#ededed', GradientType=0);
+  /* IE6-9 */
+}
+
+.asTab ul li {
+  width: 32.33%;
+  text-align: center;
+  line-height: 40px;
+}
+
+.select_optns ul li+li {
+  margin-left: -4px;
+  border-left: 1px solid #ddd;
+}
+
+.select_optns ul li a {
+  display: block;
+  line-height: 40px;
+}
+
+.select_optns .estimate {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 10px;
+  display: block;
+}
+
+.footer_sec_promote {
+  padding: 15px;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ccc;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.terms_conditions_promote {
+  padding-left: 30px;
+  background: url('../images/gear_img.png') no-repeat left center;
+  margin-top: 7px;
+}
+
+.terms_conditions_promote a {
+  text-decoration: none;
+  display: inline-block;
+  color: #ff9d01;
+}
+
+.terms_conditions_promote a+a {
+  border-left: 1px solid #ddd;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.grn_btn,
+.grn_btn:hover {
+  background: #b0b421;
+  color: #fff;
+  border: none;
+}
+
+.grn_btn {
+  display: none;
+}
+
+.date_picker_untill {
+  margin-top: 5px;
+}
+
+.date_picker_untill span {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.date_picker_untill input {
+  height: 25px;
+  width: 30%;
+}
+
+div.Tokenize ul.Dropdown li {
+  display: block;
+}
+
+.plus_optns a {
+  font-size: 13px;
+  color: #afb420;
+  margin-right: 5px;
+}
+
+.durSelect {
+  background-color: #999999;
+}
+
+.totalCost {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.videoPromoTitle {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.cover_user_photo img {
+  height: 180px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.cover_user_photo.videoCover {
+  position: relative;
+}
+
+.cover_user_photo .videoThumb {
+  background: rgba(0, 0, 0, 0) url("../images/play_btn_vid.png") no-repeat scroll center center / 70px auto;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

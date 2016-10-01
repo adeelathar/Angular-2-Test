@@ -1,0 +1,163 @@
+body,
+.top_section {
+  background: #ededed !important;
+}
+
+.post_job_form {
+  background: #ffffff none repeat scroll 0 0;
+  float: right;
+  width: 100%;
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid #ccc;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.post_job_form h5 {
+  background-image: url("../images/loudspeaker.png");
+  background-repeat: no-repeat;
+  color: #4e4f53;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-left: 25px;
+}
+
+.post_job_form label {
+  color: #4E4F53;
+}
+
+.post_job_form input[type="text"],
+input[type="url"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  border: 1px solid #cccccc;
+}
+
+.head-sec {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 8px 13px;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.head-sec h5 {
+  color: #4e4f53;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0 !important;
+}
+
+.arw-point {
+  background: rgba(0, 0, 0, 0) url("../images/arrow-down-grey.png") no-repeat scroll center center;
+  bottom: -1.5px;
+  height: 7px;
+  left: 30px;
+  position: absolute;
+  width: 16px;
+}
+
+
+.post_job_form .input-group-addon {
+  background: #fff;
+  color: #ccc;
+}
+
+.post_job_form select[multiple],
+select[size] {
+  height: 150px;
+}
+
+.group-span-filestyle .btn-default,
+.btn-log {
+  background: #4e4f53;
+  color: #fff;
+  border: 1px solid #4e4f53;
+  outline: none;
+  height: auto;
+}
+
+.btn-log {
+  padding: 4px 12px;
+  font-size: 13px;
+}
+
+.btn-log:hover {
+  background: #4e4f53;
+  color: #fff;
+  border: 1px solid #4e4f53;
+  outline: none;
+}
+
+.group-span-filestyle:focus {
+  outline: none;
+}
+
+.bootstrap-filestyle input {
+  font-size: 12px;
+}
+
+.post_job_form .form-control[disabled] {
+  background: #fff;
+}
+
+.selected_items {
+  border: 1px solid #ccc;
+  height: 150px;
+  overflow-y: scroll;
+  width: 100%;
+  padding: 6px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.selected_items_input {
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin-bottom: 2px;
+  margin-right: 4px;
+  overflow: hidden;
+  cursor: move;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.selected_items_input p {
+  padding: 2px 5px;
+  display: inline-block;
+  margin: 0px;
+  font-size: 12px;
+}
+
+.dis_miss {
+  cursor: pointer;
+  padding: 7px;
+  background: #ededed;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.dis_miss:hover {
+  background: #ccc;
+}
+
+.post_job_form select {
+  -moz-appearance: none;
+  background: #fff url("../images/review_top_arrow.png") no-repeat scroll 97% center;
+  outline: medium none;
+}

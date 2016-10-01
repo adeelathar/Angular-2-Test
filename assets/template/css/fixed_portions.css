@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.top_section {
+  width: 100%;
+  position: fixed;
+  z-index: 9;
+}
+
+.inner_content_section .inner_top_border {
+  margin-top: 80px;
+  background: #ededed;
+}
+
+.fixer {
+  width: 312px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.release_fixer {
+  position: absolute !important;
+  bottom: 0px !important;
+  right: 15px !important;
+  z-index: 1 !important;
+}
+
+.jobs-head,
+.grey-sec-search {
+  width: 838px;
+  position: fixed;
+  z-index: 99;
+}
+
+.grey-sec-search {
+  margin-top: 36px;
+}
+
+.container_marketPlace {
+  margin-top: 110px;
+}
+
+.container_marketPlace_single {
+  margin-top: 35px;
+}
+
+.jobs-head {
+  background: #ededed;
+}
+
+.top_section .logo_nav_section {
+  padding-bottom: 30px;
+}
+
+.pagination_box_jobs {
+  padding-bottom: 10px;
+}
+
+.top_section .logo_nav_section {
+  padding-bottom: 15px;
+}
+
+.border-top-s {
+  border-bottom: 1px solid #e4e4e4;
+  position: fixed;
+  width: 1170px;
+  z-index: 99;
+  margin-top: 80px;
+}
+
+.pagination_box_jobs {
+  margin-bottom: 0px;
+}
+
+.blog {
+  margin-top: 70px;
+}
+
+.n_relative {
+  position: static !important;
+}

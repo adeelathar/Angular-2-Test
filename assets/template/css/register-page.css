@@ -1,0 +1,770 @@
+body,
+.top_section {
+  background: #ededed;
+}
+
+.register_page {
+  border: 1px solid #ededed;
+  background: #ffffff;
+  padding: 20px;
+  width: 870px;
+  box-sizing: border-box;
+}
+
+.register_page .register_heading {
+  padding: 10px 20px;
+  background: #ededed;
+  margin-bottom: 13px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.register_page .register_heading h2 {
+  font-size: 18px;
+  color: #4e4f53;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.register_page .register_heading p {
+  margin-bottom: 0px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.register_page .register_box {}
+
+.register_page .register_box h2.bg_heading {
+  font-size: 14px;
+  color: #4e4f53;
+  font-weight: 400;
+  background: #ededed;
+  padding: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.register_page .register_box .field_box_section {
+  margin-bottom: 10px;
+}
+
+.register_page .register_box .field_box_section .field_box {
+  width: 260px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.register_page .register_box .field_box_section .field_box+.field_box {
+  margin-left: 20px;
+}
+
+.register_page .register_box .field_box_section .field_box .label_name {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.register_page .register_box .field_box_section .field_box .fiel_border {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  behavior: url(css/PIE.htc);
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+.register_page .register_box .field_box_section .field_box .fiel_border .icon {
+  display: inline-block;
+  vertical-align: top;
+  border-right: 1px solid #cbcbcb;
+  width: 36px;
+  height: 24px;
+  text-align: center;
+}
+
+.register_page .register_box .field_box_section .field_box .fiel_border .icon i {
+  font-size: 18px;
+  margin-top: 2px;
+  text-align: center;
+  vertical-align: top;
+  color: #ccc;
+}
+
+.register_page .register_box .field_box_section .field_box .fiel_border .text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.settings {
+  display: inline-block;
+  width: 30px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  behavior: url(css/PIE.htc);
+  height: 34px;
+  vertical-align: calc(-5px);
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  line-height: 31px;
+}
+
+.register_page .register_box .field_box_section .field_box .settings i {
+  font-size: 18px;
+  margin-top: 3px;
+  text-align: center;
+  vertical-align: top;
+  color: #8a8b8d;
+}
+
+.settings .dropdown_option {
+  border: 1px solid #cbcaca;
+  background: #fff;
+  width: 135px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  behavior: url(css/PIE.htc);
+  padding: 10px;
+  position: absolute;
+  z-index: 999;
+  right: 0px;
+  top: 40px;
+  display: none;
+  -webkit-box-shadow: 6px 6px 10px 0px rgba(230, 230, 230, 1);
+  -moz-box-shadow: 6px 6px 10px 0px rgba(230, 230, 230, 1);
+  box-shadow: 6px 6px 10px 0px rgba(230, 230, 230, 1);
+}
+
+.settings .dropdown_option .arrow {
+  position: absolute;
+  right: 7px;
+  top: -21px;
+}
+
+.register_page .register_box .field_box_section .field_box .settings .dropdown_option a {
+  display: block;
+  font-size: 13px;
+  color: #4e4f53;
+  text-align: left;
+}
+
+.register_page .register_box .field_box_section .field_box label input[type="checkbox"] {
+  margin-right: 12px;
+}
+
+.register_page .register_box .field_box_section .field_box .settings .dropdown_option a:hover {
+  color: #ff9e05;
+}
+
+.register_page .register_box .field_box_section .field_box .fiel_border .text input[type="text"],
+.register_page .register_box .field_box_section .field_box .fiel_border .text input[type="email"],
+.register_page .register_box .field_box_section .field_box .fiel_border .text select,
+.register_page .register_box .field_box_section .field_box .select_bg.full select {
+  border: 0px;
+  background: #fff;
+  padding: 2px 4px;
+  color: #4e4f53;
+}
+
+.register_page .register_box .field_box_section input[type="text"],
+.emailBox,
+.register_page .register_box .field_box_section input[type="email"] {
+  width: 218px;
+}
+
+.register_page .register_box .field_box_section .text.setting_width input[type="text"] {
+  width: 184px;
+}
+
+.register_page .register_box .field_box_section .field_box .select_bg.full {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  behavior: url(css/PIE.htc);
+}
+
+.register_page .register_box .field_box_section .field_box .fiel_border .text .select_bg,
+.register_page .register_box .field_box_section .field_box .select_bg.full {
+  background: url(../images/select_arrow.png) no-repeat 97% center;
+  overflow: hidden;
+  position: relative;
+}
+
+.register_page .register_box .field_box_section .field_box .select_bg.full {
+  display: inline-block;
+}
+
+.register_page .register_box .field_box_section .field_box .fiel_border .text .select_bg select,
+.register_page .register_box .field_box_section .field_box .select_bg.full select {
+  background: transparent;
+  width: 133%;
+  height: 24px;
+  padding-right: 16px;
+  box-shadow: 0px 0px 0px;
+  -moz-box-shadow: 0px 0px 0px;
+  -ms-box-shadow: 0px 0px 0px;
+  -o-box-shadow: 0px 0px 0px;
+  -webkit-box-shadow: 0px 0px 0px;
+  appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+}
+
+.register_page .register_box .field_box_section .field_box .select_bg.full select {
+  padding-right: 8px;
+}
+
+.register_page .register_box .field_box_section .field_box .click {
+  margin-bottom: 0px;
+  line-height: 12px;
+}
+
+.register_page .register_box .field_box_section .field_box .click {
+  font-size: 12px;
+  color: #ff9e05;
+  display: inline-block;
+}
+
+.register_page .register_box .field_box_section .field_box .click a:hover {
+  text-decoration: underline;
+}
+
+.register_page .register_box .field_box_section .agree {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  /*max-width: 258px;*/
+  position: relative;
+}
+
+.register_page .register_box .field_box_section .agree a {
+  color: #ff9e05;
+}
+
+.register_page .register_box .field_box_section .agree a:hover {
+  text-decoration: underline;
+}
+
+.register_page .register_box .field_box_section .agree label {
+  font-weight: 300;
+}
+
+.register_page .register_box .field_box_section .agree input[type="checkbox"] {
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.register_page .register_box .field_box_section input[type="submit"] {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: normal;
+  padding: 2px 40px;
+}
+
+.register_page .register_box .field_box_section .language_box {
+  padding: 4px;
+  padding-bottom: 1px;
+  min-width: 50px;
+  min-height: 26px;
+}
+
+.register_page .register_box .field_box_section span.language {
+  display: inline-block;
+  vertical-align: top;
+  background: #ededed;
+  font-size: 11px;
+  color: #4e4f53;
+  margin-right: 0px;
+  padding: 3px 18px;
+  padding-right: 5px;
+  line-height: 12px;
+}
+
+.register_page .register_box .field_box_section span.language .close_btn {
+  font-size: 10px;
+  margin-left: 5px;
+  vertical-align: top;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.register_page .register_box .second_box .field_box_section .field_box .select_bg {
+  width: 168px;
+}
+
+.register_page .register_box .second_box .field_box_section .field_box {
+  width: 200px;
+}
+
+.register_page .register_box .second_box .field_box_section .submit {
+  margin-top: 25px;
+}
+
+.register_page .register_box .third_box {}
+
+.register_page .register_box .pic_dis {
+  font-size: 14px;
+  color: #ff9e05;
+  margin-bottom: 8px;
+}
+
+.register_page .register_box .pic_frame {
+  margin-bottom: 15px;
+}
+
+.register_page .register_box .file_up {
+  background: url(../images/select_arrow.png) no-repeat 96% center;
+  position: relative;
+  width: 100%;
+}
+
+.register_page .register_box .file_up input[type="file"] {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  width: 99%;
+  opacity: 0;
+}
+
+.register_page .register_box .third_box .field_box_section .field_box {
+  width: 330px;
+}
+
+.register_page .register_box .third_box .file_up {
+  width: 330px;
+  padding: 0px 0px 0px 5px;
+}
+
+
+/*------------------------------------------*/
+
+.registration_tabs {
+  margin-bottom: 10px;
+}
+
+.registration_tabs .tab_label {
+  float: left;
+  height: 84px;
+  box-sizing: border-box;
+}
+
+.registration_tabs .tab_label .text {
+  width: 73px;
+  height: 73px;
+  border-radius: 3000px;
+  -moz-border-radius: 3000px;
+  -ms-border-radius: 3000px;
+  -o-border-radius: 3000px;
+  -webkit-border-radius: 3000px;
+  behavior: url(css/PIE.htc);
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #4e4f53;
+  font-weight: 400;
+  line-height: 15px;
+  padding-top: 20px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.registration_tabs .tab_label.register_tab1 {
+  width: 298px;
+  background: url(../images/registerSelect1.png) no-repeat left center;
+  color: #fff;
+}
+
+.registration_tabs .tab_label.register_tab2 {
+  width: 211px;
+  background: url(../images/registerTabNrml2.png) no-repeat left center;
+}
+
+.registration_tabs .tab_label.register_tab3 {
+  width: 313px;
+  background: url(../images/registerTabNrml3.png) no-repeat left center;
+}
+
+.registration_tabs .tab_label.register_tab1.select {
+  background: url(../images/registerSelect1.png) no-repeat left center;
+}
+
+.registration_tabs .tab_label.register_tab2.select {
+  background: url(../images/registerSelect2.png) no-repeat left center;
+}
+
+
+/*.registration_tabs .tab_label.register_tab2.complete{
+	background:url(../images/register_tab3_select_complete.png) no-repeat left center;	
+}*/
+
+.registration_tabs .tab_label.register_tab3.select {
+  background: url(../images/registerSelect3.png) no-repeat left center;
+}
+
+.registration_tabs .tab_label.register_tab1 .text {
+  margin-left: 103px;
+}
+
+.registration_tabs .tab_label.register_tab2 .text {
+  margin-left: 7px;
+}
+
+.registration_tabs .tab_label.register_tab3 .text {
+  margin-left: 6px;
+}
+
+.registration_tabs .tab_label.register_tab3.select .text {
+  margin-left: 8px;
+}
+
+.registration_tabs .tab_label.select .text,
+.registration_tabs .tab_label.register_tab1 .text {
+  color: #fff;
+}
+
+.commonBox {
+  display: none;
+}
+
+#box1 {
+  display: block;
+}
+
+.emailBox {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  overflow: hidden;
+}
+
+.select_bg.full > select {
+  font-size: 12px;
+}
+
+.dateOfBirth .select_bg {
+  background: rgba(0, 0, 0, 0) url("../images/select_arrow.png") no-repeat scroll 90% center !important;
+}
+
+
+/*--------------------------*/
+
+@media only screen and (max-width:1200px) {}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+  .register_page {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:769px) and (max-width:992px) {
+  .registration_tabs .tab_label.register_tab1 {
+    width: 206px;
+  }
+  .registration_tabs .tab_label.register_tab2 {
+    width: 302px;
+  }
+  .registration_tabs .tab_label.register_tab3 {
+    width: 167px;
+  }
+  .register_page {
+    width: 100%;
+  }
+  .register_page .register_box .field_box_section .field_box {
+    display: block;
+    width: auto;
+  }
+  .register_page .register_box .field_box_section .field_box .fiel_border {
+    display: block;
+  }
+  .register_page .register_box .field_box_section .field_box+.field_box {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .register_page .register_box .field_box_section .field_box .fiel_border .text {
+    width: 94%;
+  }
+  .register_page .register_box .field_box_section .field_box .fiel_border .text .select_bg select,
+  .register_page .register_box .field_box_section .field_box .select_bg.full select {
+    width: 102%;
+  }
+  .register_page .register_box .field_box_section .field_box .fiel_border .text .select_bg,
+  .register_page .register_box .field_box_section .field_box .select_bg.full {
+    background-position: 99% center;
+  }
+  .register_page .register_box .field_box_section .field_box .settings {
+    margin-top: 6px;
+  }
+  .register_page .register_box .field_box_section .field_box .select_bg.full {
+    display: block;
+    margin: 8px 0px;
+  }
+  .register_page .register_box .second_box .field_box_section .field_box {
+    width: auto;
+  }
+  .register_page .register_box .second_box .field_box_section .field_box .select_bg {
+    width: auto;
+  }
+  .register_page .register_box .second_box .field_box_section .field_box .fiel_border .text {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:769px) {
+  .register_page {
+    width: 100%;
+  }
+  .register_page .register_box .field_box_section .field_box {
+    display: block;
+    width: auto;
+  }
+  .register_page .register_box .field_box_section .field_box .fiel_border {
+    display: block;
+  }
+  .register_page .register_box .field_box_section .field_box+.field_box {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .register_page .register_box .field_box_section .field_box .fiel_border .text {
+    width: 80%;
+  }
+  .register_page .register_box .field_box_section .field_box .fiel_border .text .select_bg select,
+  .register_page .register_box .field_box_section .field_box .select_bg.full select {
+    width: 102%;
+  }
+  .register_page .register_box .field_box_section .field_box .fiel_border .text .select_bg,
+  .register_page .register_box .field_box_section .field_box .select_bg.full {
+    background-position: 99% center;
+  }
+  .register_page .register_box .field_box_section .field_box .settings {
+    margin-top: 6px;
+  }
+  .register_page .register_box .field_box_section .field_box .select_bg.full {
+    display: block;
+    margin: 8px 0px;
+  }
+  .register_page .register_box .second_box .field_box_section .field_box {
+    width: auto;
+  }
+  .register_page .register_box .second_box .field_box_section .field_box .select_bg {
+    width: auto;
+  }
+  .register_page .register_box .second_box .field_box_section .field_box .fiel_border .text {
+    width: 100%;
+  }
+  .register_page .register_box .third_box .file_up {
+    width: 100%;
+  }
+  .register_page .register_box .third_box .field_box_section .field_box {
+    width: auto;
+  }
+  /*--------------*/
+  .registration_tabs {
+    text-align: center;
+  }
+  .registration_tabs .tab_label {
+    float: none;
+    width: auto !important;
+    background: none !important;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .registration_tabs .tab_label .text {
+    margin: 0px auto !important;
+    background: #ededed;
+  }
+  .registration_tabs .tab_label .text {
+    padding-top: 22px;
+  }
+  .registration_tabs .tab_label.register_tab1 .text,
+  .registration_tabs .tab_label.select .text {
+    color: #fff;
+    background: #8a8b8d;
+    border: 5px solid #ededed;
+    padding-top: 16px;
+  }
+}
+
+@media only screen and (max-width:340px) {
+  .register_page .register_box .field_box_section input[type="text"],
+  .register_page .register_box .field_box_section .text.setting_width input[type="text"] {
+    width: 100%;
+  }
+  .register_page .register_box .field_box_section .field_box .fiel_border .text {
+    width: 74%;
+  }
+}
+
+
+/*------------*/
+
+.dateOfBirth select {
+  width: 58px !important;
+}
+
+.dateOfBirth .select_bg,
+.locationDetails .select_bg {
+  background-position: center 89%;
+}
+
+.dropdown_option {
+  text-align: left;
+}
+
+.dropdown_option label {
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.dateOfBirth .error {
+  right: 18px;
+}
+
+.locationDetails select {
+  appearance: none !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  -ms-appearance: none !important;
+  width: 100% !important;
+  margin: 1px;
+}
+
+.locationDetails .select_bg {
+  width: 258px;
+}
+
+.locationDetails .error {
+  right: 28px;
+}
+
+.locationDetails select.error {
+  box-shadow: 0px 0px 2px #933 !important;
+}
+
+.city {
+  width: 256px;
+  background: none !important;
+}
+
+.city input {
+  width: 99% !important;
+  margin: 1px;
+}
+
+.pac-container:after {
+  /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+  background-image: none !important;
+  height: 0px;
+}
+
+.go_to_profile {
+  background-color: #444448;
+  border: 1px solid #444448;
+  border-radius: 2px;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 1px 20px;
+}
+
+.go_to_profile:hover {
+  color: #ffffff;
+}
+
+.first_box label,
+.second_box label {
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #ccc !important;
+  font-size: 13px !important;
+}
+
+.input-group-addon {
+  background: #fff;
+  color: #ccc;
+}
+
+.selectBox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.Privacy_settingz {
+  display: inline-block;
+  vertical-align: middle;
+  width: 87% !important;
+}
+
+.dropdown_option input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.bigResize {
+  width: 37% !important;
+  margin-right: 6px;
+}
+
+.smallResize {
+  width: 27% !important;
+  margin-right: 6px;
+}
+
+.adjustSize {
+  float: left;
+  width: 31.333%;
+}
+
+.first_box label {
+  display: block;
+}
+
+.Privacy_settingz_alter {
+  width: 79%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.edit-select select {
+  -moz-appearance: none;
+  background: rgba(0, 0, 0, 0) url("../images/select_arrow.png") no-repeat scroll 91% center / auto 100% !important;
+  height: 32px;
+  padding: 4px 5px;
+}
+
+.edit-select select.selectexcl,
+.edit-select2 select {
+  background: rgba(0, 0, 0, 0) url("../images/select_arrow.png") no-repeat scroll 96% center / auto 100% !important;
+}
+
+.edit-select.edit-select2 select {
+  padding: 4px 40px 4px 5px;
+}

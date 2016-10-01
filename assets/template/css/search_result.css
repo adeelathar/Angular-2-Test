@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import url("profile-visitor-list.css");
+@import url("search.css");
+.search_result_tag h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px 0px 10px;
+}
+
+.visitor_list_box {
+  min-height: auto;
+}
+
+.gap_div {
+  padding: 10px 15px 0px;
+}

@@ -1,0 +1,21 @@
+.success_main .jumbotron {
+  margin-bottom: 0;
+  background-color: #fff;
+  min-height: 400px;
+  margin-top: 25px;
+}
+
+.success_main {
+  background-color: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.success_main .jumbotron h1 {
+  font-size: 30px;
+}
+
+.success_main .jumbotron p {
+  font-size: 16px;
+}

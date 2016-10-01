@@ -1,0 +1,451 @@
+.user_profile .content {
+  width: 100%;
+}
+
+.user_profile .sidebar {
+  width: 100%;
+}
+
+.user_profile .sidebar .search .search_box {
+  float: right;
+  width: 300px;
+  margin-bottom: 13px;
+}
+
+.user_profile .sidebar .my_review_block {
+  background-color: #fff;
+  border: 1px solid #ededed;
+  padding: 18px 20px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  behavior: url(css/PIE.htc);
+}
+
+.my_review_block .review_head {
+  border-bottom: 1px solid #ededed;
+}
+
+.my_review_block .review_head ul >li {
+  display: inline-block;
+  background-color: #8A8B8D;
+  line-height: 35px;
+}
+
+.user_profile .sidebar {
+  border-bottom: none;
+}
+
+.user_profile .sidebar .search_box,
+.sidebar .search_box {
+  margin-bottom: 0px;
+}
+
+.review-disabled-actions .hide_review[data-changestat="2"] {
+	display: none;
+}
+
+.review-enabled-actions .hide_review[data-changestat="1"] {
+	display: none;
+}
+
+.my_review_block .review_head ul > li > a {
+  padding: 10px 30px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.my_review_block .review_head ul > li > a.active {
+  background-color: #ffffff;
+  color: #333333;
+  padding-top: 6px !important;
+}
+
+.my_review_block p.yellow {
+  color: #FF9E05;
+  margin: 10px;
+  font-weight: 400;
+}
+
+.my_review_block .review_box {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
+.my_review_block .review_box+.review_box {
+  border-top: 1px solid #ededed;
+}
+
+.my_review_block .review_box .review_img {
+  float: left;
+  width: 100px;
+  height: 130px;
+  overflow: hidden;
+  border: 1px solid #cdcccc;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.my_review_block .review_box .posted_rev_box {
+  padding-left: 20px;
+}
+
+.my_review_block .review_box .rate_time_btm {
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.my_review_block .review_box .rate_time_btm .fa-clock-o {
+  font-size: 14px;
+  padding: 0px 4px;
+}
+
+.my_review_block .review_box .rate_eye {
+  font-size: 12px;
+  color: #FF5353;
+}
+
+.my_review_block .review_box .rate_edit,
+.my_review_block .review_box .rate_edit a {
+  font-size: 12px;
+  color: #4e4f53;
+}
+
+.my_review_block .review_box .rate_eye .fa-eye,
+.my_review_block .review_box .rate_eye .fa-ban,
+.my_review_block .review_box .rate_edit .fa-pencil {
+  font-size: 14px;
+}
+
+.my_review_block .review_box .review_img img {
+  max-width: 100%;
+}
+
+.arrow_right {
+  position: absolute;
+  left: 109px;
+}
+
+.my_review_block .review_box p.review_text {
+  line-height: 20px;
+}
+
+.my_review_block .review_box p.review_posted_by {
+  color: #afb420;
+  margin-bottom: 2px !important;
+}
+
+.my_review_block .review_box p.review_posted_by > span {
+  color: #4e4f53;
+}
+
+.my_review_block .review_box .rating_box {
+  background: url("../images/rating_star_white.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+  display: inline-block;
+  height: 11px;
+  position: relative;
+  vertical-align: top;
+  width: 68px;
+}
+
+.my_review_block .review_box .rating_box .rating_yellow {
+  background: url("../images/rating_star_yellow.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.my_review_block .review_content {
+  float: left;
+  margin-left: 20px;
+  width: 70%;
+}
+
+.my_review_block .review_search_date {
+  border: 1px solid #cbcaca;
+}
+
+.my_review_block .review_search_date ul li {
+  display: block;
+  margin: 1px;
+  overflow: hidden;
+}
+
+.my_review_block .review_search_date ul li:hover {
+  background-color: #f8f8f8;
+}
+
+.my_review_block .review_search_date ul li+li {
+  border-top: 1px solid #cbcaca;
+}
+
+.my_review_block .review_search_date ul li > a {
+  color: #4e4f53;
+  float: left;
+  font-size: 13px;
+  overflow: hidden;
+  padding: 4px 23px;
+  width: 100%;
+  background: url(/images/review_left_arrow.png) no-repeat left 8px top 12px;
+}
+
+.arrow_left {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+}
+
+.my_review_block .review_action .review_action_drop {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #cbcaca;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: none;
+  margin-right: 15px;
+  margin-top: 5px;
+  padding: 10px;
+  position: absolute;
+  right: -13px;
+  text-align: right;
+  width: 167px;
+  z-index: 999;
+}
+
+.my_review_block .review_action img {
+  cursor: pointer;
+}
+
+.my_review_block .review_action .review_action_drop .arrow {
+  position: absolute;
+  right: 37px;
+  top: -15px;
+}
+
+.review_action {
+  float: left;
+  width: 25%;
+}
+
+.review_action .review_to_action_box {
+  float: left;
+  width: 80%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.review_action .review_to_action_box .img_to {
+  border-radius: 20000px;
+  overflow: hidden;
+  width: 50px;
+  height: 55px;
+  margin: 0 auto;
+}
+
+.review_action .review_to_action_box .img_to img {
+  max-width: 100%;
+}
+
+.review_action p {
+  margin-bottom: 0px !important;
+  font-weight: 500;
+  color: #4e4f53;
+  line-height: 17px !important;
+}
+
+.review_action p >a {
+  color: #4e4f53;
+}
+
+.review_action_drop ul li {
+  display: block;
+  margin: 1px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.review_action_drop ul li a {
+  color: #4e4f53;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+}
+
+.review_search_date ul li {
+  display: block;
+  margin: 1px;
+  overflow: hidden;
+}
+
+.review_search_date ul li+li {
+  border-top: 1px solid #cbcaca;
+}
+
+.review_search_date ul li > a {
+  color: #4e4f53;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+}
+
+.item_review {
+  margin: 0 !important;
+}
+
+
+/*--------------------------*/
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+  .user_profile .sidebar .booking .table_hed i {
+    display: block;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .user_profile .content {
+    float: left;
+  }
+  .user_profile .sidebar {
+    width: 100%;
+  }
+  .user_profile .sidebar .booking .t_data .data_hed .hash {
+    float: none;
+    width: auto;
+    padding: 8px;
+  }
+  .user_profile .sidebar .booking .t_data .data_hed .name {
+    padding-left: 24px;
+    margin-right: 15px;
+    width: auto;
+  }
+  .user_profile .sidebar .booking .table .data_content .main_content .w_details {
+    width: auto;
+    float: none;
+  }
+  .user_profile .sidebar .booking .table .data_content .main_content .duration {
+    width: auto;
+    float: none;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width:992px) {
+  .user_profile .sidebar .booking .t_data .data_hed .hash .count {
+    padding: 0 5px;
+  }
+  .user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date + .date {
+    margin-left: 10;
+  }
+  .user_profile .content {
+    float: none;
+    width: auto;
+  }
+  .user_profile .sidebar {
+    float: none;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width:769px) and (max-width:992px) {}
+
+@media only screen and (max-width:769px) {
+  .user_profile .sidebar .booking .t_data .data_hed .hash {
+    text-align: left;
+  }
+  .user_profile .sidebar .booking .t_data .data_hed .name,
+  .user_profile .sidebar .booking .t_data .data_hed .s_date,
+  .user_profile .sidebar .booking .t_data .data_hed .e_date,
+  .user_profile .sidebar .booking .t_data .data_hed .budget,
+  .user_profile .sidebar .booking .t_data .data_hed .country,
+  .user_profile .sidebar .booking .t_data .data_hed .status,
+  .user_profile .sidebar .booking .t_data .data_hed .delete {
+    float: none;
+    text-align: left;
+    width: auto;
+    padding-left: 15px;
+    margin-bottom: 5px;
+  }
+  .user_profile .sidebar .booking .table_hed .hash,
+  .user_profile .sidebar .booking .table_hed .name,
+  .user_profile .sidebar .booking .table_hed .s_date,
+  .user_profile .sidebar .booking .table_hed .e_date,
+  .user_profile .sidebar .booking .table_hed .budget,
+  .user_profile .sidebar .booking .table_hed .country,
+  .user_profile .sidebar .booking .table_hed .status,
+  .user_profile .sidebar .booking .table_hed .delete {
+    float: none;
+    text-align: left;
+    width: auto;
+    padding-left: 15px;
+    margin-bottom: 5px;
+  }
+  .user_profile .sidebar .booking .table_hed i {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width:690px) {
+  .user_profile .sidebar .booking .t_data .data_content .main_content {
+    float: none;
+    width: auto;
+  }
+  .user_profile .sidebar .booking .t_data .data_content .side_box {
+    float: none;
+    width: auto;
+  }
+  .user_profile .sidebar .booking .table_hed {
+    text-align: center;
+  }
+  .user_profile .sidebar .booking .t_data.active .data_hed {
+    text-align: center;
+  }
+  .user_profile .sidebar .booking .t_data .data_hed .hash .detail_setting {
+    display: inline-block;
+    margin-top: 9px;
+  }
+  .user_profile .sidebar .booking .t_data .data_hed .hash .details span.fa.fa-angle-down {
+    margin-top: 14px;
+  }
+}
+
+@media only screen and (max-width:639px) {
+  .user_profile .sidebar .booking .tab ul li {
+    float: none;
+  }
+  .user_profile .sidebar .booking .tab ul li.active a {
+    background-image: none;
+  }
+}
+
+@media only screen and (max-width:579px) {
+  .user_profile .sidebar .booking .table .data_content .main_content .w_details {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: none;
+    width: auto;
+  }
+  .user_profile .sidebar .booking .table .data_content .main_content .duration {
+    border-top: 1px solid #b9b9b9;
+    float: none;
+    margin-top: 20px;
+    padding: 20px 0;
+    width: auto;
+  }
+  .user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date + .date {
+    margin-left: 22px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width:468px) {}
+
+@media only screen and (max-width:356px) {
+  .user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date,
+  .user_profile .sidebar .booking .table .data_content .main_content .duration .duration_dates .date + .date {
+    float: none;
+    margin: 0px auto;
+    margin-bottom: 10px;
+  }
+}
+
+
+/*------------*/

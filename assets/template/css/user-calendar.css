@@ -1,0 +1,406 @@
+/*******************************Calendar Top Navigation*********************************/
+
+div#calendar {
+  padding: 0px;
+  width: 561px;
+  font-family: Helvetica, "Times New Roman", Times, serif;
+  float: right;
+}
+
+div#calendar div.box {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 36px;
+  background-color: #eeecec;
+}
+
+div#calendar div.header {
+  height: 36px;
+  left: 0;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  vertical-align: middle;
+  width: 100%;
+}
+
+div#calendar div.header a.prev,
+div#calendar div.header a.next {
+  color: #4e4f53;
+  cursor: pointer;
+  display: block;
+  font-size: 25px;
+  position: absolute;
+  text-decoration: none;
+  top: 0;
+  font-weight: bold;
+}
+
+div#calendar div.header span.title {
+  color: #4e4f53;
+  font-size: 16px;
+}
+
+div#calendar div.header a.prev {
+  left: 10px;
+}
+
+div#calendar div.header a.next {
+  right: 10px;
+}
+
+
+/*******************************Calendar Content Cells*********************************/
+
+div#calendar ul.label {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+div#calendar ul.label li {
+  color: #fff;
+  float: left;
+  font-size: 12px;
+  font-weight: 300;
+  height: 23px;
+  line-height: 23px;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 14.28%;
+}
+
+div#calendar ul.label li:nth-child(even) {
+  background: #6a6b6c;
+}
+
+div#calendar ul.label li:nth-child(odd) {
+  background: #4e4f53;
+}
+
+div#calendar ul.label li:last-child {
+  border-right: none;
+}
+
+div#calendar ul.dates {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+
+/** overall width = width+padding-right**/
+
+div#calendar ul.dates li {
+  margin: 0px;
+  padding: 0px;
+  vertical-align: top;
+  float: left;
+  list-style-type: none;
+  height: 95px;
+  font-size: 14px;
+  color: #000;
+  width: 14.28%;
+  list-style: none;
+  position: relative;
+}
+
+div#calendar ul.dates li:nth-child(even) {
+  background: #eaeaeb;
+}
+
+div#calendar ul.dates li:nth-child(odd) {
+  background: #f5f5f5;
+}
+
+div#calendar ul.dates li .calContent {
+  display: block;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  line-height: 11px;
+  font-weight: bold;
+}
+
+.div#calendar ul.dates li {
+  background: #000 !important;
+}
+
+div#calendar ul.dates li .calContent .courseDay,
+div#calendar ul.dates li .calContent .calendarCourse,
+div#calendar ul.dates li .calContent .courseTime,
+div#calendar ul.dates li .calContent .courseName {
+  display: block;
+}
+
+:focus {
+  outline: none;
+}
+
+div.clear {
+  clear: both;
+}
+
+.end {
+  border-right: 0px !important;
+}
+
+.polarids {
+  background: #fff none repeat scroll 0 0;
+  height: auto;
+  /*margin-top: 11px;*/
+  padding: 15px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+ul.dates li .eventTitle {
+  font-size: 13px;
+  font-weight: 500;
+  color: #737373;
+}
+
+ul.dates li {
+  line-height: 16px !important;
+  padding: 5px !important;
+}
+
+.calendar-nofications {
+  float: left;
+  width: 245px;
+  height: 534px;
+  background: #e5e5e5;
+  border: 1px solid #cbcbcb;
+}
+
+.day-notifications {
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  padding: 28px 0px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.day-notifications div {
+  float: left;
+}
+
+div.img-arw-left,
+div.img-arw-right {
+  width: 20%;
+  text-align: center;
+}
+
+div.img-arw-left img,
+div.img-arw-right img {
+  cursor: pointer;
+}
+
+div.date-clander {
+  width: 60%;
+  text-align: center;
+}
+
+div.date-clander p {
+  font-size: 37px;
+  font-weight: lighter;
+}
+
+div.date-clander span {
+  font-size: 15px;
+  vertical-align: top;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 3px;
+  display: block;
+}
+
+div.day-notification-content {
+  height: 440px;
+  overflow: hidden;
+  position: relative;
+}
+
+div.day-notification-content ul li {
+  background: url('../images/list-calender.png') no-repeat;
+  background-position: 10px 10px;
+  padding: 10px 10px 10px 30px;
+  border-bottom: 1px solid #d6d6d6;
+  position: relative;
+}
+
+div.day-notification-content ul li+li {}
+
+div.day-notification-content ul li:last-child {
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+div.day-notification-content ul li h5 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px 0px 6px;
+  color: #4e4f53;
+}
+
+div.day-notification-content ul li h5 span {
+  font-size: 11px;
+  padding: 3px;
+  font-weight: 300;
+  color: #fff;
+  background: #afb420;
+  border-radius: 3px;
+  letter-spacing: 0.3px;
+  margin-left: 5px;
+}
+
+.activeday {
+  border: 1px solid #ff9e05;
+}
+
+.activeEvents {
+  border: 1px solid #4e4f53;
+}
+
+div.day-notification-content ul li h5 .events {
+  background: none;
+  border: 1px solid #d1d1d2;
+  color: #5f5f63;
+}
+
+div.day-notification-content ul li p {
+  font-size: 12px;
+  line-height: 15px;
+  color: #585858;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+div.day-notification-content ul li p:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+
+div.createNewEvents {
+  margin-top: 10px;
+}
+
+div.createNewEvents a {
+  text-decoration: none;
+  color: #a7a8a8;
+  padding: 3px 5px;
+  border: 1px solid #d1d1d2;
+  border-radius: 3px;
+}
+
+div.createNewEvents i {
+  color: #afb420;
+  margin-right: 5px;
+  line-height: 21px;
+}
+
+.modal-dialog {
+  width: 500px;
+}
+
+.calendar-modal .modal-content {
+  overflow: hidden;
+}
+
+.calendar-modal .modal-header {
+  background: #f8f7f7;
+  border-bottom: 0px;
+  padding: 10px 15px;
+}
+
+.calendar-modal .modal-header h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+
+.calendar-modal .modal-body {
+  padding: 10px 15px;
+}
+
+.calendar-modal label {
+  color: #4e4f53;
+  font-weight: 500;
+}
+
+.calendar-modal .form-control {
+  border: 1px solid #ccc;
+  padding: 6px 9px;
+  box-shadow: none;
+  font-size: 12px;
+}
+
+.calendar-modal .form-group {
+  margin-bottom: 7px;
+}
+
+.calendar-modal .background-img {
+  padding: 6px 9px 6px 25px;
+}
+
+.calendar-modal .addPlace {
+  background: url('../images/map-amrker.png') no-repeat 10px center;
+}
+
+.calendar-modal .when {
+  padding: 6px 9px 6px 30px;
+  background: url('../images/when.png') no-repeat 10px center;
+}
+
+.calendar-modal .time {
+  padding: 6px 9px 6px 30px;
+  background: url('../images/time.png') no-repeat 10px center;
+}
+
+.calendar-modal .modal-footer {
+  margin: 0px;
+  padding: 10px 15px;
+  background: #f8f7f7;
+  border-top: 0px;
+}
+
+.calendar-modal .modal-footer .btn {
+  font-size: 12px;
+}
+
+.calendar-modal .modal-footer .btn-primary {
+  background: #000;
+  color: #fff;
+  border: 0px;
+}
+
+.pac-container {
+  z-index: 9999;
+  background-image: none !important;
+}
+
+.pac-container::after {
+  background-image: none !important;
+}
+
+a.editArrow {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: inline-block;
+  color: #fff;
+  background-color: #ccc;
+  padding: 2px;
+  line-height: 12px;
+}

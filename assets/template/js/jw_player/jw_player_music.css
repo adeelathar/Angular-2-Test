@@ -1,0 +1,66 @@
+#myElement{
+	background-color:#F2F0F0 !important;
+}
+#myElement_logo{
+	display:none;
+}
+.html5-watermark[src*="base64,"], .html5-watermark[src*="/img/pixel"],#myElement_controlbar .jwcapRight,#myElement_controlbar .jwcapLeft{
+	display:none;
+	background:none !important;
+}
+#myElement_controlbar .jwtimeSliderProgress{
+background:url("1.png") repeat-x scroll center center / 1px 8px rgba(167,173,39,0) !important;
+}
+#myElement_controlbar .jwtimeSliderProgressCapLeft{
+	background:url("1.png") repeat-x scroll center center / 1px 8px rgba(167,173,39,0) !important;
+}
+#myElement_controlbar .jwtimeSliderRail{
+	background:url("2.png") repeat-x scroll center center / 1px 8px rgba(167,173,39,0) !important;
+}
+#myElement_controlbar .jwtimeSliderRailCapRight{
+	background:url("2.png") repeat-x scroll center center / 5px 8px rgba(167,173,39,0) !important;
+}
+#myElement_controlbar .jwtimeSliderBufferCapRight{
+	background:url("2.png") repeat-x scroll center center / 5px 8px rgba(167,173,39,0) !important;
+}/*
+span.jwcontrolbar .jwcenter{
+	position: absolute;
+	top: -18px;
+	width: 100%;
+}
+#myElement_controlbar{
+	max-width:820px !important;
+}
+#myElement_controlbar .jwbackground{
+	left:-10px !important;
+	right:-10px !important;
+}*/
+#myElement_controlbar .jwbackground{
+	left:0px !important;
+	right:0px !important;
+}
+.jw-tab-focus:focus{
+	outline:none !important;
+}
+#myElement_display .jwpreview{
+	width:160px;
+	height:160px;
+	margin:10px 5px;
+	background-color:#F2F0F0 !important;
+}
+.jwitem  .jwplaylistimg{
+	background-image:url("../jw_player/music_play.png") !important;
+}
+#myElement_jwplayer_playlistcomponent .jwplaylistimg{
+	width:12px !important;
+	height:16px !important;
+	background-color:#ffffff;
+}
+#myElement_jwplayer_playlistcomponent .jwplaylistdivider{
+	background-color:#ededed !important;
+	height:1px !important;
+	background-image:none !important;
+}
+.jwlist li{
+	height:40px !important;
+}

@@ -1,0 +1,790 @@
+body,
+.top_section {
+  background: #ededed;
+}
+
+
+/*.user_profile .content{
+    width:auto;
+    float:none;
+}
+.user_profile .content .profile_content{
+    width:900px;
+}*/
+
+.user_profile .content .pagination_box .video_search {
+  width: 100%;
+}
+
+.music-head {
+  margin-bottom: 19px !important;
+}
+
+.activemp3 {
+  background: #f2f2f2;
+}
+
+.user_profile .content .pagination_box .video_search input[type="text"] {
+  background: #fff url("../images/menu-icon.png") no-repeat scroll 96% center;
+  border: 1px solid #e1e0e0;
+  border-radius: 1px;
+  color: #9b9b9b;
+  font-size: 14px;
+  max-width: 100%;
+  padding: 7px 35px 8px 9px;
+}
+
+.no-padding-r {
+  padding-right: 0px
+}
+
+.no-padding-l {
+  padding-left: 0px
+}
+
+.alt-padding-r {
+  padding-right: 2px
+}
+
+.alt-padding-l {
+  padding-left: 2px
+}
+
+.alt-padding-r-alt {
+  padding-right: 5px
+}
+
+.alt-padding-l-alt {
+  padding-left: 5px
+}
+
+.bt-submit {
+  background-color: #4e4f53;
+  border-radius: 0;
+  color: #fff;
+  font-size: 13px;
+  width: 100%;
+}
+
+.fa.fa-search.hidden-lg {
+  color: #fff !important;
+}
+
+.upload a i {
+  margin-right: 5px !important;
+}
+
+.user_profile .content .pagination_box .upload a {
+  font-weight: 500;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  padding: 7px 0px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.user_profile .content .pagination_box .option {
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  padding: 9px 0px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  position: relative;
+}
+
+.option .fa-chevron-down {
+  margin-left: 15px !important;
+}
+
+.user_profile .content .pagination_box .option p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 11px;
+  margin: 0;
+}
+
+.col-sm-1.col-sm-offset-2.col-lg-1.col-lg-offset-0.not {
+  padding-top: 4px;
+}
+
+.music-page .sidebar,
+.music-page .search_box {
+  margin-bottom: 0px;
+  border-bottom: none;
+}
+
+.music-pagein .pagination_box {
+  margin-bottom: 10px !important;
+}
+
+.user_profile .content .pagination_box .option ul {
+  position: absolute;
+  display: none;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  top: 30px;
+  width: 100%;
+  width: 200px;
+  z-index: 999;
+  padding: 0px;
+  -webkit-box-shadow: 4px 1px 10px 0 rgba(150, 150, 150, 0.75);
+  -moz-box-shadow: 4px 1px 10px 0 rgba(150, 150, 150, 0.75);
+  -ms-box-shadow: 4px 1px 10px 0 rgba(150, 150, 150, 0.75);
+  -o-box-shadow: 4px 1px 10px 0 rgba(150, 150, 150, 0.75);
+  box-shadow: 4px 1px 10px 0 rgba(150, 150, 150, 0.75);
+}
+
+.user_profile .content .pagination_box .option ul li {
+  line-height: 21px;
+  text-align: left;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 5px;
+}
+
+.user_profile .content .pagination_box .option ul li:hover {
+  background: #f4f4f4;
+}
+
+.user_profile .content .pagination_box .option ul li:last-child {
+  border-bottom: none;
+}
+
+.user_profile .content .pagination_box .option ul a {
+  text-decoration: none;
+  font-size: 13px;
+  text-align: left;
+}
+
+.user_profile .content .pagination_box .noti {
+  position: relative;
+}
+
+.user_profile .content .pagination_box .noti a {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 51px;
+  margin-left: 25px;
+  padding: 5px 4px;
+  display: block;
+}
+
+.user_profile .content .pagination_box .noti .notifications {
+  background-color: #ff9e05;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 6px 8px;
+  position: absolute;
+  right: -15px;
+  top: -20px;
+  z-index: 10;
+}
+
+.user_profile .videos {
+  background-color: #fff;
+  border: 1px solid #ededed;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+.user_profile .videos .video_left {
+  float: left;
+  width: 100%;
+}
+
+.user_profile .videos .video_left .audio_left {
+  width: 100%;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc {
+  background-color: #f2f0f0;
+  padding: 10px;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_thump {
+  width: 100%;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_details {
+  width: 100%;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_details h1 {
+  color: #4e4f53;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_details p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 0;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_details p span {
+  color: #7e7e7e;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_details .buttons {
+  margin-top: 14px;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_details .buttons a {
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 7px 10px;
+  color: #FFFFFF;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_details .buttons a + a {
+  margin-left: 5px;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_details .buttons a.pause {
+  background-color: #afb420;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_details .buttons a.download {
+  background-color: #4e4f53;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_details .buttons a.favorite {
+  background-color: #ff9e05;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .audio_details .buttons a.plus {
+  border: 1px solid;
+  color: #4e4f53;
+  padding: 6px 10px;
+}
+
+.user_profile .videos .video_left .audio_left .audio_desc .player {
+  margin-top: 52px;
+}
+
+.user_profile .videos .video_right {
+  float: right;
+  width: 300px;
+}
+
+.user_profile .videos .video_desc {
+  background-color: #fcfcfc;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.05);
+  margin-top: 3px;
+}
+
+.user_profile .videos .video_desc .desc_sec {
+  border-bottom: 1px solid #e9e9e9;
+  border-top: 1px solid #e9e9e9;
+}
+
+.user_profile .videos .video_left .audio .audio_left .dropshadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07);
+  background: #FCFCFC;
+}
+
+.user_profile .videos .video_left .audio .audio_left .user {
+  border-bottom: 1px solid #e9e9e9;
+  border-top: 1px solid #e9e9e9;
+  margin-top: 1px;
+  padding: 15px 20px 9px 10px;
+}
+
+.user_profile .videos .video_left .audio .audio_left .user .thump {
+  float: left;
+}
+
+.user_profile .videos .video_left .audio .audio_left .user .thump img {
+  border-radius: 50%;
+}
+
+.user_profile .videos .video_left .audio .audio_left .user .user_info {
+  float: left;
+  margin-left: 9px;
+}
+
+.user_profile .videos .video_left .audio .audio_left .user .user_info h5 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #4e4f53;
+  margin-bottom: 0;
+}
+
+.user_profile .videos .video_desc .share {
+  padding: 20px;
+  border-top: 1px solid #fff;
+}
+
+.user_profile .videos .video_left .audio .audio_left .user .user_info .date {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.user_profile .videos .video_left .audio .audio_left .user .user_info .proffesion {
+  background-image: url("../images/proffessin.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.user_profile .videos .video_left .audio .audio_left .user .user_info .star_rate {
+  display: block;
+  margin-top: 3px;
+}
+
+.user_profile .videos .video_left .audio .audio_left .butttons2 {
+  padding: 12px 10px 12px 20px;
+}
+
+.user_profile .videos .video_left .audio .audio_left .butttons2 .share_like a {
+  border-radius: 3px;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+
+.user_profile .videos .video_left .audio .audio_left .butttons2 a + a {
+  margin-left: 5px;
+}
+
+.user_profile .videos .video_left .audio .audio_left .butttons2 a.like {
+  background-color: #ff9e05;
+}
+
+.user_profile .videos .video_left .audio .audio_left .butttons2 a.share {
+  background-color: #3b5998;
+}
+
+.user_profile .videos .video_left .audio .audio_right {
+  width: 100%;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist_head {
+  background-color: #4e4f53;
+  padding: 11px 18px 12px 11px;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist_head h6 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist_head h6 a {
+  color: #fff;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist {
+  border-top: 1px solid #e1e1e1;
+  max-height: 377px;
+  overflow: hidden;
+  position: relative;
+  border-right: 2px solid #ececec;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist .ps-scrollbar-y-rail {
+  background-color: #f2f0f0;
+  border: 1px solid #d3d3d3;
+  width: 9px !important;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist .ps-scrollbar-y {
+  background-color: #afb420 !important;
+  width: 7px;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist .item {
+  border-bottom: 1px solid #e1e1e1;
+  box-sizing: unset;
+  height: 47px;
+  cursor: pointer;
+}
+
+.item:hover {
+  background: #f3f3f3;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist .item .play {
+  float: left;
+  padding: 11px 9px 10px 11px;
+  width: 32px;
+  color: #848386;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist .item .play a {
+  color: #848386;
+  font-size: 17px;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist .item .name {
+  color: #000;
+  float: left;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  width: 152px;
+  padding: 9px 0;
+  border-left: 1px solid #eaeaeb;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist .item .name span {
+  color: #c1c1c1;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist .item .time {
+  float: left;
+  padding: 11px 0;
+  text-align: center;
+  width: 33px;
+}
+
+.user_profile .videos .video_left .audio .audio_right .playlist .item .close_btn {
+  float: left;
+  padding: 9px 0;
+  text-align: center;
+  width: 39px;
+}
+
+.user_profile .videos .video_left .audio .audio_right .share_icons {
+  background-color: #ececec;
+  padding: 9px 15px 8px;
+}
+
+.user_profile .videos .video_left .audio .audio_right .share_icons a + a {
+  margin-left: 8px;
+}
+
+.user_profile .videos .video_left .audio .audio_right .share_icons a.more {
+  background-image: url("images/border.png");
+  background-position: left center;
+  background-repeat: repeat-y;
+  display: block;
+  padding-left: 20px;
+}
+
+.user_profile .video_right h6 {
+  color: #4e4f53;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.user_profile .video_right a.create {
+  color: #afb420;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.user_profile .video_right .ads {
+  margin-top: 3px;
+}
+
+.user_profile .video_right .ads .ad + .ad {
+  margin-top: 20px;
+}
+
+.user_profile .video_right .ads .ad h4 {
+  color: #4e4f53;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 9px;
+}
+
+.user_profile .video_right .ads .ad h6 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.user_profile .video_right .ads .ad p {
+  color: #8a8b8d;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.user_profile .video_right a.promote {
+  background-color: #afb420;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 21px;
+  padding: 6px 0;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  behavior: url(css/PIE.htc);
+  position: relative;
+}
+
+.user_profile .top_videos {
+  position: relative;
+  padding: 10px;
+}
+
+.user_profile .top_videos + .top_videos {
+  margin-top: 18px;
+}
+
+.user_profile .top_videos h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.user_profile .top_videos .albums {
+  border-top: 1px solid #eeeeee;
+  margin-top: 5px;
+  padding-top: 15px;
+}
+
+.user_profile .top_videos .albums {
+  padding: 18px 0;
+}
+
+.thumb_audio {
+  width: 100%;
+  overflow: hidden;
+}
+
+.thumb_audio img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.desc {
+  width: 100%;
+  height: 150px;
+  position: relative;
+}
+
+.user_profile .top_videos .album {
+  width: 100%;
+}
+
+.user_profile .top_videos .album:nth-child(even) {
+  float: right;
+}
+
+.user_profile .top_videos .album .desc {
+  width: 100%;
+}
+
+.user_profile .top_videos .album .desc h6 {
+  color: #4e4f53;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.user_profile .top_videos .album .desc p {
+  color: #8a8b8d;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  margin-bottom: 27px;
+}
+
+.user_profile .top_videos .album .desc .player {
+  background-color: #4e4f53;
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+a.p_button {
+  border-right: 1px solid #3a3b3f;
+  color: #fff;
+  display: inline-block;
+  font-size: 17px;
+  width: 35px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.playingOn {
+  background: url('../images/pauseMusic.png') no-repeat center center;
+}
+
+.pauseIt {
+  background: url('../images/pauseBottom.png') no-repeat center center;
+}
+
+.user_profile .top_videos .album .desc .player span.dur {
+  border-left: 1px solid #747474;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 11px;
+  margin-left: -3px;
+  padding: 11px 9px 9px;
+}
+
+.user_profile .top_videos .album .desc .player a.list {
+  background-color: #afb420;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 7px 30px;
+}
+
+.user_profile .top_videos .album .desc .player a.list:hover {
+  color: #fff;
+}
+
+.user_profile .top_videos .controls a {
+  position: absolute;
+  top: 0px;
+}
+
+.user_profile .top_videos .controls a.prev {
+  right: 14px;
+}
+
+.user_profile .top_videos .controls a.next {
+  right: 0px;
+}
+
+.no-point {
+  cursor: no-drop !important;
+}
+
+.jp-playlist ul,
+.jp-playlist,
+.jp-playlist ul li {
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+  transition: 0.6s ease;
+}
+
+.user_profile .video_right a.promote {
+  background-color: #afb420;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 21px;
+  padding: 6px 0;
+  position: relative;
+  text-align: center;
+}
+
+.newWidthMusic {
+  width: 65.667%;
+}
+
+
+/*--------Music Player---------*/
+
+.mp_player {}
+
+
+/*--------End Music Player---------*/
+
+.promoted_music {
+  color: #ff9e05;
+  font-size: 10px;
+  text-align: right;
+}
+
+.remodal .video_rate_table .rate-ex2-cnt {
+  border: none;
+}
+
+.remodal .video_rate_table .tr {
+  padding: 5px !important;
+}
+
+.remodal .video_rate_table .rate-ex2-cnt {
+  float: left;
+  width: 75%;
+}
+
+.remodal .video_rate_table input[type="button"] {
+  padding: 2px 15px !important;
+  font-size: 14px !important;
+}
+
+.voted {
+  color: #A7A6A6 !important;
+}
+
+@media (min-width:1200px) {
+  .col-lg-sp-5-alt {
+    width: 519px;
+  }
+}
+
+@media (max-width:1200px) {
+  .user_profile .top_videos .album .desc p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .music-head {
+    margin-bottom: 17px !important;
+  }
+  .player {
+    margin-top: 24px !important;
+  }
+  .audio_details p {
+    line-height: 16px !important;
+  }
+}
+
+
+/*--------------------------*/
+
+@media only screen and (min-width:992px) and (max-width:1200px) {}
+
+@media only screen and (max-width:1200px) {
+  .user_profile .videos .video_left,
+  .user_profile .videos .video_right {
+    float: none;
+    width: auto;
+  }
+  .user_profile .videos .video_right {
+    margin-top: 15px;
+  }
+  .top_videos {
+    margin-top: 30px;
+  }
+  .user_profile .top_videos .album {
+    float: none;
+    width: auto;
+  }
+  .user_profile .top_videos .album:nth-child(2n) {
+    float: none;
+  }
+  .user_profile .top_videos .album + .album {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width:992px) {
+  .user_profile .videos .video_desc .desc_sec .video_info .views {
+    float: none;
+    text-align: left;
+  }
+  .user_profile .videos .video_left .audio .audio_left .user .user_info {
+    float: none;
+    margin-left: 0;
+    margin-top: 7px;
+  }
+}

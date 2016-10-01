@@ -1,0 +1,122 @@
+.add_review_list {
+  background-color: #ffffff;
+  border: 1px solid #ededed;
+  padding: 0 15px;
+}
+
+.add_review_list h5 {
+  padding: 10px 0 5px;
+  border-bottom: 2px solid #d4d4d4;
+}
+
+.add_review_list h5>span {
+  font-weight: 300;
+}
+
+.add_review_list .review_box {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 4px;
+  margin-bottom: 6px;
+}
+
+.add_review_list .review_box .thumb {
+  float: left;
+  width: 62px;
+}
+
+.add_review_list .review_box .text {
+  font-size: 14px;
+  color: #4e4f53;
+  font-weight: 400;
+  margin-left: 76px;
+  margin-bottom: 7px;
+}
+
+.add_review_list .review_box .text .review {
+  margin-bottom: 0;
+  line-height: 17px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.add_review_list .review_box .time .posted {
+  font-size: 11px;
+  color: #afb420;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+.add_review_list .review_box .time .posted span {
+  color: #4e4f53;
+}
+
+.add_review_list .review_box .rating_box {
+  width: 68px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  background: url(../images/rating_star_white.png) no-repeat left top;
+  height: 11px;
+  margin: 10px 0;
+}
+
+.add_review_list .review_box .time {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 10px;
+  color: #4e4f53;
+  margin-left: 10px;
+  margin: 9px;
+}
+
+.add_review_list .review_box .time i {
+  font-size: 14px;
+  margin-right: 4px;
+  margin-top: 0;
+  vertical-align: top;
+  color: #7b7c7e;
+}
+
+.add_review_list .review_box .rating_box .rating_yellow {
+  background: url(../images/rating_star_yellow.png) no-repeat left top;
+  height: 11px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.margin_btm0 .seemore {
+  display: inline-block;
+  font-size: 14px;
+  color: #afb420;
+  font-weight: 400;
+  padding: 6px 0;
+  text-transform: uppercase;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  behavior: url(css/PIE.htc);
+  transition: background linear .2s;
+  -moz-transition: background linear .2s;
+  -ms-transition: background linear .2s;
+  -o-transition: background linear .2s;
+  -webkit-transition: background linear .2s;
+}
+
+.margin_btm0 .seemore:hover {
+  color: #4e4f53;
+}
+
+.add_rev_btn {
+  background-color: #4e4f53;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.add_rev_btn:hover {
+  color: #ffffff;
+}

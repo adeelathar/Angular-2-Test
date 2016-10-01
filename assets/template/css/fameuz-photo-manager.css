@@ -1,0 +1,62 @@
+.fameuz-photos .modal-title {
+  text-align: center;
+  width: calc(100% - 100px);
+  margin: 0 auto; }
+
+.fameuz-photos h4 > p:empty {
+  display: none; }
+
+.fameuz-photos .dropzone {
+  padding: 18px;
+  margin-bottom: 18px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #dcdee3;
+  text-align: center; }
+  .fameuz-photos .dropzone aside {
+    pointer-events: none;
+    cursor: pointer; }
+
+.fameuz-photos .dropzone .dz-preview .dz-image {
+  width: 150px;
+  height: 110px; }
+
+.fameuz-photos .dz-message {
+  display: none; }
+
+.fameuz-photos button[data-dismiss] {
+  float: right;
+  margin-left: 7px; }
+
+.fameuz-photos button[data-action='edit'] {
+  float: right;
+  margin-left: 7px; }
+
+.fameuz-photos button[data-action='albums'] {
+  float: left; }
+
+.fameuz-photos .lightBoxs {
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 12px;
+  margin-right: 12px; }
+
+.fameuz-photos .fm-albums a {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
+  height: 180px;
+  background-size: cover;
+  background-position: center; }
+
+.fameuz-photos .fm-albums .caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #333;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 5px; }
+
+/*# sourceMappingURL=fameuz-photo-manager.css.map */

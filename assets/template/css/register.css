@@ -1,0 +1,411 @@
+.inner_content_section .inner_top_border .register_heading {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.inner_content_section .inner_top_border .register_heading h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #4e4f53;
+  margin-bottom: 2px;
+}
+
+.register_content {}
+
+.register_content .register_image {
+  float: left;
+  width: 50%;
+}
+
+.register_content .register_box {
+  float: right;
+  width: 43%;
+  box-sizing: border-box;
+  background: #f8f8f8;
+  padding: 25px 60px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  behavior: url(css/PIE.htc);
+}
+
+.register_content .register_image a {
+  display: block;
+  float: left;
+  width: 16.6%;
+}
+
+.register_content .register_image a img {
+  opacity: 1;
+  transition: opacity linear .2s;
+  -moz-transition: opacity linear .2s;
+  -ms-transition: opacity linear .2s;
+  -o-transition: opacity linear .2s;
+  -webkit-transition: opacity linear .2s;
+  width: 100%;
+}
+
+.register_content .register_image a:hover > img {
+  opacity: .6;
+}
+
+.register_content .register_box h1 {
+  font-weight: 500;
+  color: #4e4f53;
+  margin-bottom: 2px;
+}
+
+.register_content .register_box h6 {
+  color: #4e4f53;
+  font-size: 16px;
+}
+
+.register_content .register_box .register_form {}
+
+.register_content .register_box .register_form_box {
+  position: relative;
+}
+
+.register_content .register_box .register_form .tr {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  behavior: url(css/PIE.htc);
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  margin-bottom: 8px;
+}
+
+.register_content .register_box .register_form .tr.submit {
+  background: none;
+  border: 0px;
+  margin-top: 18px;
+}
+
+.register_content .register_box .register_form .tr.clicking {
+  text-align: center;
+  font-size: 12px;
+  color: #929292;
+}
+
+.register_content .register_box .register_form .tr.clicking p {
+  line-height: 15px;
+}
+
+.register_content .register_box .register_form .tr.clicking a {
+  color: #514f50;
+  transition: color linear .2s;
+  -moz-transition: color linear .2s;
+  -ms-transition: color linear .2s;
+  -o-transition: color linear .2s;
+  -webkit-transition: color linear .2s;
+}
+
+.register_content .register_box .register_form .tr.clicking a:hover {
+  color: #000;
+}
+
+.register_content .register_box .register_form .tr.facebook_login a,
+.register_content .register_fb_box .facebook_login a {
+  display: block;
+  background: #325797;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  behavior: url(css/PIE.htc);
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  /*margin:0px 30px;*/
+}
+
+.register_content .register_box .register_form .tr.facebook_login a span,
+.register_content .register_fb_box .facebook_login a span {
+  display: inline-block;
+  vertical-align: top;
+  background: url(../images/login_fb.png) no-repeat left center;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.register_content .register_box .register_form .tr .icon {
+  float: left;
+  width: 60px;
+  border-right: 1px solid #ececec;
+  height: 50px;
+  box-sizing: border-box;
+  text-align: right;
+  padding-right: 12px;
+  padding-top: 12px;
+}
+
+.register_content .register_box .register_form .tr .field {
+  float: left;
+  width: 80%;
+}
+
+.register_content .register_box .register_form input[type="text"],
+.register_content .register_box .register_form input[type="password"],
+.register_content .register_box .register_form select {
+  border: 0px;
+  font-size: 16px;
+  color: #838282;
+  padding: 14px 15px;
+  font-weight: 300;
+  height: 50px;
+  border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  behavior: url(css/PIE.htc);
+}
+
+.register_content .register_box .register_form select {
+  padding-left: 9px;
+  border: 0 !important;
+  /*Removes border*/
+  background: transparent;
+  width: 110%;
+}
+
+.register_content .register_box .register_form .select_arrow {
+  background: url(../images/select_option_arrow.png) no-repeat right center;
+  overflow: hidden;
+}
+
+.register_content .register_box .register_form input[type="submit"] {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  display: block;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  behavior: url(css/PIE.htc);
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.register_content .register_box::-webkit-input-placeholder {
+  color: #838282;
+  opacity: 1;
+}
+
+.register_content .register_box::-moz-placeholder {
+  color: #838282;
+  opacity: 1;
+}
+
+.register_content .register_box::-moz-placeholder {
+  color: #838282;
+  opacity: 1;
+}
+
+.register_content .register_box::-ms-input-placeholder {
+  color: #838282;
+  opacity: 1;
+}
+
+
+/*-----------*/
+
+.register_content .register_fb_box {
+  text-align: center;
+  font-size: 12px;
+  color: #000000;
+  display: none;
+  position: relative;
+}
+
+.register_content .register_fb_box .close_btn {
+  position: absolute;
+  right: -55px;
+  top: -20px;
+  cursor: pointer;
+}
+
+.register_content .register_fb_box .fb_logo {
+  margin-bottom: 19px;
+}
+
+.register_content .register_fb_box p {
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.register_content .register_fb_box h3 {
+  font-size: 17px;
+  color: #000000;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.register_content .register_fb_box h2 {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.register_content .register_fb_box .hr {
+  background: #515051;
+  height: 1px;
+  margin: 12px 64px;
+}
+
+.register_content .register_fb_box .hr.hr_bg {
+  background: url(../images/hr_border.jpg) no-repeat center top;
+  height: 2px;
+}
+
+.register_content .register_fb_box .fb_login_arrow {
+  margin: 20px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 26px;
+}
+
+#register_home_frm input.error {
+  box-shadow: none !important;
+}
+
+#register_home_frm form.cmxform label.error,
+label.error {
+  color: #e91f25 !important;
+  font-weight: 400 !important;
+}
+
+.login-session .register_image {
+  margin-top: 0px !important;
+}
+
+.login-session .register_box {
+  padding: 42px 60px !important;
+  border-bottom: 1px solid #ccc;
+}
+
+.otherCat {
+  display: none;
+}
+
+
+/*--------------------------*/
+
+@media only screen and (max-width:1200px) {}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+  .register_content .register_box .register_form .tr .field {
+    width: 74%;
+  }
+  .register_content .register_box .register_form input[type="text"],
+  .register_content .register_box .register_form input[type="password"],
+  .register_content .register_box .register_form select {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width:769px) and (max-width:992px) {
+  .register_content .register_image {
+    float: none;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .register_content .register_box {
+    float: none;
+    width: auto;
+  }
+  .register_content .register_box .register_form .tr .field {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width:769px) {
+  .register_content .register_image {
+    float: none;
+    width: 460px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .register_content .register_box {
+    float: none;
+    width: 460px;
+    margin: 0px auto;
+  }
+  .register_content .register_box .register_form .tr .field {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .register_content .register_image {
+    float: none;
+    width: auto;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .register_content .register_image a {
+    width: 25%;
+  }
+  .register_content .register_box {
+    float: none;
+    width: auto;
+    margin: 0px auto;
+    padding: 20px;
+  }
+  .register_content .register_box .register_form .tr .field {
+    width: 70%;
+  }
+  .register_content .register_box h1 {
+    font-size: 20px;
+  }
+  .inner_content_section .inner_top_border .register_heading h1 {
+    font-size: 25px;
+  }
+  .register_content .register_box .register_form input[type="text"],
+  .register_content .register_box .register_form input[type="password"],
+  .register_content .register_box .register_form select {
+    font-size: 14px;
+  }
+  .register_content .register_box .register_form .tr.facebook_login a,
+  .register_content .register_box .register_form .tr.facebook_login a span,
+  .register_content .register_fb_box .facebook_login a {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width:340px) {
+  .register_content .register_box .register_form .tr .icon {
+    width: 40px;
+    padding-right: 2px;
+  }
+}
+
+
+/*------------*/

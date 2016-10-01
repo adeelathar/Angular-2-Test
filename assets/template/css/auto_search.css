@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.auto_suggest ul {
+  border: 1px solid #ccc;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  box-shadow: none !important;
+}
+
+.auto_suggest ul li {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-bottom: 1px solid #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  line-height: 9px;
+  list-style: outside none none;
+  margin: 0;
+  padding: 10px;
+}
+
+.auto_suggest ul li:last-child {
+  border-bottom: 0px;
+}
+
+.auto_suggest ul li:hover {
+  background: #f4f4f4;
+  cursor: pointer;
+}
+
+.auto_suggest ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.auto_suggest .img-section {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.auto_suggest .img-section img {
+  width: 100%;
+  min-height: 100%;
+}
+
+.auto_suggest .user-info-sec {
+  display: inline-block;
+  vertical-align: calc(10px);
+  margin-left: 5px;
+}
+
+.auto_suggest .user-info-sec h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4e4f53;
+  margin: 0px;
+}
+
+.auto_suggest .user-info-sec h3 > a {
+  color: #4e4f53;
+  font-weight: 500;
+}
+
+.auto_suggest .user-info-sec p {
+  padding-left: 21px;
+  background: url("../images/proffessin.png") no-repeat left center;
+  font-size: 12px;
+  margin: 0px;
+  margin-top: 3px;
+}

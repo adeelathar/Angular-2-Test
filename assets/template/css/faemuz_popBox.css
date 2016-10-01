@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.fameuz_popBox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999991;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.fameuz_popBox_container {
+  position: absolute;
+  z-index: 999992;
+  background: #fff;
+  overflow: hidden;
+  -webkit-transform: scale(0.3, 0.3);
+  -moz-transform: scale(0.3, 0.3);
+  -ms-transform: scale(0.3, 0.3);
+  -o-transform: scale(0.3, 0.3);
+  transform: scale(0.3, 0.3);
+}
+
+.orginalScaleSize {
+  -webkit-transition: all 700ms;
+  -moz-transition: all 700ms;
+  -ms-transition: all 700ms;
+  -o-transition: all 700ms;
+  transition: all 700ms;
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+}
+
+.fameuz_popBox_sidebar {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f4f4f4;
+  border-right: 1px solid #ededed;
+}
+
+.fameuz_popBox_header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 30px;
+  background: #f4f4f4;
+  border-bottom: 1px solid #ededed;
+  padding: 0px 10px;
+  z-index: 99999;
+}
+
+.fameuz_popBox_header h3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.popBox_close {
+  position: absolute;
+  top: 0px;
+  width: 30px;
+  right: 0px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.fameuz_popBox_footer {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  padding: 0px 10px;
+  bottom: 0;
+  left: 0;
+  background: #f4f4f4;
+  border-top: 1px solid #ededed;
+}
+
+.fameuz_popBox_footer a {
+  text-decoration: none;
+  color: #4e4f53;
+  background: #edede;
+  border: 1px solid #ccc;
+  padding: 3px 8px;
+  line-height: 40px;
+}
+
+.fameuz_popBox_body {
+  overflow: hidden;
+  padding: 20px;
+}

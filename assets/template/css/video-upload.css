@@ -1,0 +1,360 @@
+    @import url("videos.css");
+body,
+.top_section {
+  background: #ededed;
+}
+
+.main-background-white {
+  background: #fff;
+  background-size: 30px 30px;
+  height: auto;
+  border-radius: 4px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.upload-sec {
+  padding: 15px;
+}
+
+.upload-warning {
+  background: url('../images/sail.png') no-repeat 95% center #f4f4f4;
+  height: auto;
+  padding: 15px;
+}
+
+.upload-warning .upload-warning-head p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4e4f53;
+}
+
+.upload-warning-points {
+  font-size: 12px;
+}
+
+.upload-warning-points ul li {
+  line-height: 20px;
+  list-style: inside decimal;
+}
+
+.upload-warning-footer {
+  margin-top: 20px;
+}
+
+.upload-warning-footer p {
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+.upload-warning-footer a {
+  text-decoration: none;
+  color: #262628;
+  position: relative;
+}
+
+.upload-warning-footer a:hover {
+  text-decoration: underline;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -13.5px;
+}
+
+.upload-file {
+  width: 312px;
+  height: auto;
+}
+
+.drag-upload {
+  width: 230px;
+  height: 131px;
+  border-left: 1px solid #e8e8e9;
+  border-top: 1px solid #e8e8e9;
+  border-right: 1px solid #e8e8e9;
+  margin-top: 55px;
+  position: relative;
+}
+
+.left-shadow {
+  position: absolute;
+  left: -19px;
+}
+
+.right-shadow {
+  position: absolute;
+  right: -19px;
+}
+
+.cloud {
+  position: absolute;
+  left: 50%;
+  margin-left: -46px;
+  top: -30px;
+}
+
+.drag-upload p {
+  margin: 0px;
+}
+
+.upload-title {
+  margin-top: 50px;
+}
+
+.drag {
+  color: #b1b1b1;
+}
+
+.or {
+  margin-top: 20px;
+  color: #b1b1b1;
+}
+
+.input-field {
+  margin-top: 30px;
+}
+
+.input-field .form-group {
+  width: 100% !important;
+}
+
+.input-field .form-inline .form-control {
+  width: 100%;
+  border: 1px solid #e1e0e0;
+  box-shadow: none;
+}
+
+.input-field .input-group-addon {
+  background: #fff;
+  border-right: none;
+}
+
+.upoad-btn {
+  margin-top: 24px;
+  margin-left: 36%;
+  width: 100px;
+  background: #f5f5f5;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.custom-upload {
+  position: relative;
+}
+
+.custom-upload input[type=file] {
+  outline: none;
+  position: absolute;
+  text-align: right;
+  -moz-opacity: 0;
+  filter: alpha(opacity: 0);
+  opacity: 0;
+  z-index: 2;
+  box-shadow: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  cursor: pointer;
+}
+
+.upload-sec {
+  padding: 15px;
+}
+
+.upload-warning .upload-warning-head p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4e4f53;
+}
+
+.upload-warning-points {
+  font-size: 12px;
+}
+
+.upload-warning-points ul li {
+  line-height: 20px;
+  list-style: inside decimal;
+}
+
+.upload-warning-footer {
+  margin-top: 11px;
+}
+
+.upload-warning-footer p {
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+.upload-warning-footer a {
+  text-decoration: none;
+  color: #4e4f53;
+  position: relative;
+}
+
+.upload-warning-footer a:hover {
+  text-decoration: underline;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -13.5px;
+}
+
+.test {
+  width: 100%;
+  height: 200px;
+  background: #000;
+}
+
+.uploading-section {
+  padding: 15px;
+}
+
+#uploading-section {
+  display: none;
+}
+
+.upload-preview {
+  width: 100%;
+  height: 121px;
+  background: no-repeat center;
+  background-size: 100% auto;
+  margin-bottom: 5px;
+}
+
+.upload-status p {
+  margin-bottom: 0px;
+}
+
+.process {
+  font-size: 12px;
+  color: #8a8b8d;
+  margin-top: -5px;
+}
+
+.upload-link p {
+  font-size: 12px;
+  color: #8a8b8d;
+  margin-bottom: 0px;
+}
+
+.upload-link a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #4e4f56;
+}
+
+.upload-link a:hover {
+  text-decoration: underline;
+}
+
+.progressbar1 {
+  width: 100%;
+  height: 30px;
+  border: 5px solid #e8e8e9;
+  border-radius: 4px;
+  position: relative;
+  transition: 0.8s;
+}
+
+.progression1 {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #afb420;
+  transition: 0.8s;
+}
+
+.upload-info {
+  font-size: 12px;
+}
+
+.vid-name {
+  font-weight: 600;
+}
+
+.vid-size,
+.vid-time {
+  color: #8a8b8d
+}
+
+.upload-help {
+  margin-bottom: 5px;
+}
+
+.upload-help input,
+.upload-help textarea {
+  border: 1px solid #e1e0e0;
+  box-shadow: none;
+}
+
+.upload-help label {
+  margin: 0px;
+  color: #4e4f53;
+  font-weight: 500;
+}
+
+.help-text {
+  font-size: 12px;
+  color: #d0d0d0;
+}
+
+.vid-info-title p {
+  margin-bottom: 0px;
+}
+
+.upload-help select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url('../images/arrow-down-1.png') no-repeat 95% center;
+}
+
+.video-upload .btn {
+  background: #4e4f53;
+  color: #fff;
+  border: none;
+  width: 82px;
+  margin-top: 10px;
+}
+
+.progressbar1.progress {
+  position: relative;
+  padding: 1px;
+  border-radius: 3px;
+}
+
+.percent {
+  position: absolute;
+  display: inline-block;
+  top: 0px;
+  left: 48%;
+  color: #ffffff;
+}
+
+.upload-warning-head p {
+  margin-bottom: 0px;
+}
+
+
+/*--------------------------*/
+
+@media only screen and (min-width:200px) and (max-width:400px) {
+  @media only screen and (max-width: 1200px) {}
+  @media only screen and (max-width: 992px) {}
+  @media only screen and (min-width: 1280px) {}
+  @media only screen and (min-width: 769px) and (max-width: 992px) {}
+  @media only screen and (max-width: 769px) {}
+  @media only screen and (max-width: 680px) {}
+  @media only screen and (max-width: 610px) {}
+  @media only screen and (max-width: 579px) {}
+  @media only screen and (max-width: 462px) {}
+  @media only screen and (max-width: 402px) {
+    @media only screen and (max-width: 375px) {}

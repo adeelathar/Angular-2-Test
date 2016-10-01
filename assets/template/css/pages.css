@@ -1,0 +1,176 @@
+.textPageWrap {
+  padding: 30px 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #4e4f53;
+  background: #fff;
+  text-align: justify; }
+  .textPageWrap h1 {
+    font-size: 26px;
+    margin: 0; }
+  .textPageWrap h2 {
+    font-size: 20px;
+    margin: 40px 0 20px; }
+  .textPageWrap h3 {
+    font-size: 14px;
+    text-transform: uppercase; }
+  .textPageWrap a {
+    color: #ff9e05;
+    text-decoration: none; }
+    .textPageWrap a:hover {
+      text-decoration: underline; }
+  .textPageWrap p, .textPageWrap li {
+    font-size: 14px;
+    line-height: 17px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-transform: none;
+    font-weight: normal; }
+  .textPageWrap li p {
+    margin-top: 10px;
+    margin-bottom: 0; }
+  .textPageWrap ul {
+    list-style-type: disc; }
+    .textPageWrap ul li {
+      display: list-item; }
+  .textPageWrap .numberList > li {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
+    display: block; }
+    .textPageWrap .numberList > li:before {
+      display: inline; }
+  .textPageWrap > ol {
+    padding: 0; }
+  .textPageWrap ol {
+    counter-reset: list1; }
+    .textPageWrap ol li {
+      display: table-row;
+      list-style-type: none; }
+      .textPageWrap ol li:before {
+        counter-increment: list1;
+        content: counter(list1) ". ";
+        display: table-cell;
+        padding-right: 4px;
+        padding-top: 10px; }
+      .textPageWrap ol li ol {
+        counter-reset: list2;
+        padding-left: 20px; }
+        .textPageWrap ol li ol li:before {
+          counter-increment: list2;
+          content: counter(list1) "." counter(list2) ". "; }
+        .textPageWrap ol li ol li ol {
+          counter-reset: list3;
+          padding-left: 0; }
+          .textPageWrap ol li ol li ol li:before {
+            counter-increment: list3;
+            content: counter(list1) "." counter(list2) "." counter(list3) ". "; }
+          .textPageWrap ol li ol li ol li ol {
+            counter-reset: list4;
+            padding-left: 0; }
+            .textPageWrap ol li ol li ol li ol li:before {
+              counter-increment: list4;
+              content: counter(list1) "." counter(list2) "." counter(list3) "." counter(list4) ". "; }
+
+.about_us-pageWrap {
+  background: #ededed;
+  padding: 0px 0; }
+
+.pagedesc.about_us-page {
+  font-family: Roboto,sans-serif;
+  color: #4e4f53;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+  box-sizing: border-box; }
+
+.pagedesc.about_us-page h1 {
+  margin: 0 0 20px;
+  font-size: 26px; }
+
+.pagedesc.about_us-page p {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 10px; }
+
+.pagedesc.about_us-page ul {
+  text-align: left;
+  padding-left: 15px; }
+
+.pagedesc.about_us-page.contact_us-page li {
+  font-size: 14px;
+  line-height: 17px;
+  display: block;
+  margin-bottom: 10px; }
+
+.pagedesc.about_us-page.contact_us-page li a {
+  color: #ff9e05;
+  text-decoration: none; }
+
+.pagedesc.about_us-page.contact_us-page li a:hover {
+  text-decoration: underline; }
+
+.pagedesc.about_us-page iframe, .pagedesc.about_us-page video {
+  margin: 45px auto;
+  display: block;
+  max-width: 100%; }
+
+.pagedesc.about_us-page .about_usPage-name {
+  margin-bottom: 20px;
+  text-align: right;
+  display: block;
+  font-style: italic; }
+
+.pagedesc.about_us-page .contactsPage-link {
+  font-size: 12px;
+  background: #4e4f53;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  text-transform: uppercase;
+  transition: all linear .2s;
+  -moz-transition: all linear .2s;
+  -ms-transition: all linear .2s;
+  -o-transition: all linear .2s;
+  -webkit-transition: all linear .2s;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  max-width: 100px; }
+
+.pagedesc.about_us-page .contactsPage-link:hover {
+  background-color: transparent;
+  color: #4e4f53; }
+
+.imgBlockWrap {
+  padding-top: 20px; }
+
+.imgBlockWrap .city-link {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff9e05; }
+
+.imgBlockWrap img {
+  width: 100%;
+  margin-bottom: 10px; }
+
+.about_us-page .social_icons .heading {
+  margin-bottom: 6px;
+  font-size: 17px;
+  color: #4e4f53;
+  font-weight: 500;
+  text-align: left; }
+
+@media (max-width: 550px) {
+  .pagedesc.about_us-page {
+    width: 100%;
+    padding: 20px; }
+  .pagedesc.about_us-page iframe, .pagedesc.about_us-page video {
+    margin: 20px auto;
+    height: 215px; } }
+
+/*# sourceMappingURL=pages.css.map */

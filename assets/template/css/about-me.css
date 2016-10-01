@@ -1,0 +1,46 @@
+
+.book_form_inner {
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+.book_form_inner h2 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 4px 0px 8px 0px;
+  border-bottom: 1px solid #d9dadb;
+  /*background:url("../images/booking_icon.png") no-repeat scroll left 1px rgba(0, 0, 0, 0);*/
+  color: #504F54;
+}
+
+.book_form_inner form input[type="text"] {
+  border: 1px solid #C4C4C4;
+  padding: 1px 15px !important;
+}
+
+.book_form_inner form .checkbox {
+  margin-top: 5px !important;
+}
+
+.book_form_inner form .form-group {
+  margin-bottom: 10px !important;
+}
+
+.book_form_inner form .input-group-addon {
+  background-color: #ffffff !important;
+  color: #C6C6C6;
+  padding: 4px 12px !important;
+}
+
+.book_form_inner form .input-group-addon .fa {
+  width: 12px;
+}
+
+.book_form_inner form button[type="submit"] {
+  background-color: #afb420;
+  color: #ffffff;
+}
+
+.book_form_inner form button[type="submit"]:hover {
+  background-color: #4e4f53;
+}

@@ -1,0 +1,138 @@
+body,
+.top_section {
+  background: #ededed;
+}
+
+.whiteBg {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.visitor_head_box {
+  background-color: #ffffff;
+  padding: 8px 13px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  position: relative;
+}
+
+.visitor_head_box h5 {
+  color: #4e4f53;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 !important;
+  line-height: 30px;
+}
+
+.visitor_list_box {
+  padding: 15px;
+  background-color: #ffffff;
+  margin: 5px 0px !important;
+  min-height: 500px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom: 1px solid #ccc;
+}
+
+.visitor_list_box li {
+  margin-bottom: 10px;
+}
+
+.visitor_list_box .visitor_inner_box {
+  border-bottom: 1px solid #E2E0E1;
+  position: relative;
+}
+
+.visitor_list_box .image_thumb {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.visitor_list_box .image_thumb img {
+  max-width: 100%;
+}
+
+.visitor_list_box .visitor_box {
+  margin-left: 115px;
+}
+
+.visitor_list_box .visitor_box p {
+  margin-bottom: 0px !important;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.visitor_list_box .visitor_box p.name_head {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.visitor_list_box .visitor_box .follow_status_box {
+  padding-bottom: 5px;
+}
+
+.visitor_list_box .visitor_box .follow_status_box .follow_status {
+  bottom: 1px;
+  margin-top: 7px;
+  position: absolute;
+  right: 5px;
+  text-align: right;
+  width: 200px;
+  /*background-color: #4c4d51;*/
+}
+
+.visitor_list_box .visitor_box .follow_status_box .follow_status a.follow,
+.visitor_list_box .visitor_box .follow_status_box .follow_status a.following,
+.visitor_list_box .visitor_box .follow_status_box .follow_status a.friend {
+  color: #ffffff;
+  padding: 3px 17px 3px 8px;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 3px;
+  font-weight: 600;
+  display: inline-block;
+  line-height: 16px;
+}
+
+.visitor_list_box .visitor_box .follow_status_box .follow_status a.follow {
+  background: none repeat scroll 0 0 #afb420;
+}
+
+.visitor_list_box .visitor_box .follow_status_box .follow_status a.following {
+  background: none repeat scroll 0 0 #fff;
+  color: #4c4d51;
+  font-weight: 500;
+  border: 1px solid #ccc;
+}
+
+.job_desc_head h3 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+span.applied {
+  display: block;
+  background: #afb420;
+  text-align: center;
+  padding: 4px 20px;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  letter-spacing: 0.3px;
+}
+
+.applyjob-modal .btn {
+  font-size: 12px;
+}
+
+.applyjob-modal .btn-primary {
+  background: #afb420;
+  color: #fff;
+  border: 0px;
+}
+
+.grey {
+  color: #cccccc;
+}

@@ -1,0 +1,111 @@
+span.seemore a {
+  color: #4e4f53;
+  font-size: 13px;
+  font-weight: 300;
+  padding-right: 5px;
+}
+
+span.seemore a:hover {
+  color: #ff9e05;
+}
+
+.user_profile .content .profile_content .photos_section + .photos_section {
+  margin-top: 10px;
+}
+
+a.playbtn {
+  background: rgba(0, 0, 0, 0) url("../images/url_to_play_button_image.png") no-repeat scroll center center;
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.user_profile .content .profile_content .photos_section .photos_box .friends {
+  width: 138px !important;
+}
+
+.pic {
+  position: relative;
+}
+
+.shadow_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0) url("../images/thumb_shadow.png") repeat-x scroll center bottom;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
+
+.friends .pic span {
+  bottom: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+  height: auto;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  left: 0px;
+  z-index: 999;
+  padding: 10px;
+  bottom: 0;
+}
+
+.profile_box {
+  background: #fff !important;
+}
+
+.my_profile_tabs .nav-tabs {
+  background: #fff;
+}
+
+.my_profile_tabs .nav-tabs > li {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  position: relative;
+}
+
+.my_profile_tabs .nav > li > a {
+  border-right: 1px solid #dfdede;
+  border-radius: 0px;
+  margin: 0px;
+  border-left: 0px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #4e4f53;
+  font-size: 14px;
+}
+
+.my_profile_tabs .nav > li > a::after {
+  content: "";
+  width: 15px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  margin-left: -8px;
+}
+
+.my_profile_tabs .nav > li.active > a::after {
+  background: url('../images/photo_arrow.png') no-repeat center center;
+}
+
+.my_profile_tabs .nav > li > a:hover,
+.my_profile_tabs .nav > li > a:focus {
+  background: #fff;
+  border-radius: 0px;
+  border-right: 1px solid #ccc;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.my_profile_tabs .nav > li > a {
+  padding: 10px 27px !important;
+}

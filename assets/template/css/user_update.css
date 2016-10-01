@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.user-info {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.postmsg {
+  color: #878787;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.postmsgs a {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #4e4f53;
+}
+
+.postmsgs {
+  margin: 0px;
+  line-height: 17px;
+}
+
+.desc-update {
+  margin-bottom: 0px;
+  padding: 10px 15px 10px 15px;
+}
+
+.media-sec {
+  padding: 0px 15px;
+  padding-bottom: 0px;
+}
+
+.desck p {
+  color: #4e4f53;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 17px;
+}
+
+.time-post {
+  font-size: 11px;
+  color: #7e7e7f;
+  margin-right: 25px;
+}
+
+.home_update_margin {
+  margin-bottom: 8px;
+}
+
+.user .thump {
+  width: 40px;
+  height: 40px;
+}
+
+.dropMe_down {
+  color: #ededed;
+  display: block;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  z-index: 9;
+}
+
+.dropMe_down:hover {
+  color: #ccc;
+}
+
+.dropMe_down:visited,
+.dropMe_down:focus {
+  color: #ededed;
+}
+
+.drop_down_delete {
+  width: 180px;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, .15);
+  display: none;
+  background: #fff;
+  padding: 3px 0px;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+  -ms-box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+  -o-box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.drop_down_delete li {
+  color: #4e4f53;
+  display: block;
+  padding: 5px 15px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.drop_down_delete li span {
+  display: block;
+}
+
+.drop_down_delete li i {
+  display: inline-block;
+  vertical-align: calc(1px);
+  margin-right: 3px;
+}
+
+.drop_down_delete li:hover {
+  background: #4e4f53;
+  color: #fff;
+}
+
+.helpText {
+  font-size: 11px;
+  color: #9197a3;
+  margin-left: 12px;
+}

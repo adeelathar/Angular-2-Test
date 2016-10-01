@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.chat_box {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  width: 250px;
+  height: auto;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.chat_box_head {
+  width: 100%;
+  height: 25px;
+  background: #4e4f53;
+  cursor: pointer;
+  color: #fff;
+  padding: 0px 10px;
+  position: relative;
+}
+
+.chat_box_head a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  line-height: 25px;
+  line-height: 25px;
+}
+
+.chat_box_foot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid #ccc;
+}
+
+.chat_box_foot input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 13px;
+}
+
+.controls_chat {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.controls_chat i {
+  margin: 0px 2px;
+  font-weight: 300;
+}
+
+.chat_box_body {
+  width: 100%;
+  height: 263px;
+  overflow: scroll;
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.chat_msg {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  margin-bottom: 3px;
+}
+
+.user_chat {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  float: left;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.msg_sent {
+  max-width: 170px;
+  width: auto;
+  float: left;
+  padding: 3px 10px;
+  margin-bottom: 5px;
+  background: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #ededed;
+}
+
+.msg_sent p {
+  margin-bottom: 0px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.left_msg {
+  float: left;
+}
+
+.right_msg {
+  float: right;
+}
+
+.left_msg .msg_sent {
+  margin-left: 5px;
+}
+
+.right_msg .msg_sent {
+  margin-right: 5px;
+}
+
+.count {
+  margin-left: 3px;
+  padding: 0px 4px;
+  font-size: 11px;
+  background: #ff9e05;
+  color: #fff;
+  border-radius: 3px;
+  line-height: 12px !important;
+}

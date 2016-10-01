@@ -1,0 +1,280 @@
+@import url("profile-visitor-list.css");
+.single_image .full_image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.single_image .full_image > img {
+  max-width: 540px;
+  max-height: 540px;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+}
+
+.single_image .singleImgBg {
+  padding: 20px 0px;
+  background-color: #F9F9F9;
+}
+
+.single_image .single_profile_image {
+  width: 37px;
+  max-height: 37px;
+  overflow: hidden;
+  margin-top: 10px;
+  border-radius: 100%;
+}
+
+.single_image .descrBox {
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.single_image .descrBox h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0px !important;
+}
+
+.single_image .descrBox h3 a {
+  color: #4E4F53;
+}
+
+.single_image .descrBox p {
+  font-size: 13px;
+  margin-bottom: 0px !important;
+}
+
+.single_image .descrBox .singleImgLike {
+  background-color: #F9F9F9;
+}
+
+.single_image .descrBox .singleImgLike p {
+  padding: 4px 0;
+  margin-bottom: 0px !important;
+}
+
+.albumFont {
+  color: #8a8b8d;
+}
+
+.single_image .descrBox .singleImgLike p span.countStr {
+  float: right;
+  color: #8a8b8d;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.single_image .descrBox .singleImgLike p a {
+  background: none repeat scroll 0 0 #ff9e05;
+  border-radius: 2px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0px 15px;
+  transition: background 0.2s linear 0s;
+}
+
+.single_image .descrBox .singleImgLike p a .fa {
+  margin-right: 6px;
+}
+
+.single_image .descrBox .singleImgLike p a.liked {
+  color: #a06201;
+}
+
+.single_image .descrBox .singleImgLike p a.worked_btn,
+.single_image .descrBox .singleImgLike p a.worked_request_sent {
+  background: none repeat scroll 0 0 #4e4f53;
+  border-color: #4e4f53;
+  border-radius: 2px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0px 15px;
+  transition: background 0.2s linear 0s;
+  margin-left: 5px;
+}
+
+.single_image .descrBox .commentBox {
+  margin: 10px 0;
+}
+
+.single_image .descrBox .commentBox h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #505155;
+}
+
+.single_image .descrBox .commentBox h5.heading.with_border {
+  background: url("../images/border.jpg") repeat-x scroll center 13px rgba(0, 0, 0, 0);
+  margin-bottom: 0px !important;
+}
+
+.single_image .descrBox .commentBox h5.heading.with_border span {
+  background: none repeat scroll 0 0 #fff;
+  padding-right: 4px;
+}
+
+.single_image .descrBox .commentBox .working_comments {
+  background: none repeat scroll 0 0 #f4f4f4;
+  border: 1px solid #ededed;
+  border-radius: 3px;
+  margin-bottom: 14px;
+  padding: 10px;
+}
+
+.single_image .descrBox .commentBox .working_comments .thumb,
+.single_image .descrBox .commentBox .commentsingle .thumbImg {
+  float: left;
+  width: 39px;
+  height: 39px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.single_image .descrBox .commentBox .working_comments .comments,
+.single_image .descrBox .commentBox .commentsingle .commentsText {
+  display: block;
+  margin-left: 53px;
+  position: relative;
+}
+
+.single_image .descrBox .commentBox .working_comments .comments .comments_arrow {
+  left: -7px;
+  position: absolute;
+  top: 9px;
+}
+
+.single_image .descrBox .commentBox .working_comments .comments textarea {
+  border: 1px solid #eaeaea;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  behavior: url(css/PIE.htc);
+  background: #ffffff;
+  padding: 9px;
+  font-size: 12px;
+  color: #4E4F53;
+  font-weight: 400;
+  height: 80px;
+}
+
+.single_image .descrBox .commentBox .working_comments .comments .upload_section {
+  margin-top: 15px;
+}
+
+.single_image .descrBox .commentBox .working_comments .comments .upload_section .post_list {
+  float: left;
+  width: 45%;
+}
+
+.single_image .descrBox .commentBox .working_comments .comments .upload_section .post_btns {
+  float: right;
+}
+
+.single_image .descrBox .commentBox .working_comments .comments .upload_section .post_btns a {
+  font-size: 14px;
+  color: #4e4f53;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.single_image .descrBox .commentBox .working_comments .comments .upload_section .post_btns a i {
+  color: #4e4f53;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.single_image .descrBox .commentBox .working_comments .comments .upload_section .post_btns input[type="submit"] {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.commentsingle {
+  padding: 5px 0;
+  position: relative;
+}
+
+.commentsingle+.commentsingle {
+  border-top: 1px solid #ededed;
+}
+
+.single_image .descrBox .commentBox .commentsingle .thumbImg img {
+  border-radius: 1px !important;
+  height: auto !important;
+}
+
+.single_image .descrBox .commentBox .commentsingle .commentsText h6 {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 2px !important;
+}
+
+.single_image .descrBox .commentBox .commentsingle .commentsText h6 a {
+  color: #505155;
+}
+
+.single_image .descrBox .commentBox .commentsingle .commentsText p {
+  line-height: 17px;
+}
+
+.single_image .descrBox .commentBox .commentsingle .commentsText .likeBox {
+  margin-top: 10px;
+}
+
+.single_image .descrBox .commentBox .commentsingle .commentsText .likeBox .time {
+  font-size: 11px;
+  margin-right: 10px;
+  color: #a7a6a6
+}
+
+.single_image .likeBox a {
+  color: #a7a6a6;
+  font-size: 12px;
+  font-weight: bold;
+  width: 10%;
+}
+
+.single_image a.liked {
+  color: #ff9e05;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.single_image .descrBox .commentBox .commentsingle .commentsText .likeBox .likecom .like_button .fa {
+  font-size: 10px;
+}
+
+.single_image .descrBox .commentBox .commentsingle .commentsText .likeBox .likecom a.liked span {
+  color: #505155;
+}
+
+.single_image .descrBox .commentBox .loadMoreTime a {
+  color: #afb420;
+  float: right;
+  padding: 5px;
+}
+
+.single_image .descrBox .commentBox .loadMoreTime a:hover {
+  color: #4E4F53;
+}
+
+.commentsingle .deletComment {
+  display: block;
+}
+
+.commentsingle .deletComment a {
+  color: #4e4f53;
+  opacity: 0.2;
+  padding: 0 10px 10px;
+  position: absolute;
+  right: 0;
+  top: -3px;
+  display: none;
+}
