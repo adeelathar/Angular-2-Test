@@ -1,3 +1,2 @@
-### Angular Documentation Example 
+### Angular 2 Test
 
-Router
