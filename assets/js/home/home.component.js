@@ -23,7 +23,7 @@ System.register(['@angular/core'], function(exports_1, context_1) {
                 }
                 homeComponent = __decorate([
                     core_1.Component({
-                        template: "\n    <h2>CRISIS CENTER</h2>\n    <router-outlet></router-outlet>\n  "
+                        templateUrl: 'app/home/home.component.html'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], homeComponent);
