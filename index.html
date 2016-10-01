@@ -3,10 +3,39 @@
   <head>
     <!-- Set the base href -->
     <script>document.write('<base href="' + document.location + '" />');</script>
-    <title>Router Sample</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>fameuz - casting call | auditions | backstage jobs for models &amp; upcoming actors - FAMEUZ</title>
+
+    <meta name="description" content="We help emerging actors/models of all ages get casting jobs in TV channels, magazines, music videos, reality shows">  
+
+    <meta property="og:title" content="Fameuz.com"/>
+    <meta property="og:description" content="Fameuz.com"/>
+
+    <link rel="shortcut icon" href="assets/template/images/favicon.png">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
+    <link href="assets/template/css/master.css" rel="stylesheet" type="text/css">
+    <link href="assets/template/css/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="assets/template/js/toastr/toastr.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/template/css/main.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="assets/template/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/template/js/toastr/toastr.min.js"></script>
+    <link href="assets/template/css/index.css" rel="stylesheet" type="text/css">
+
+    <script>
+        toastr.options = {
+            "positionClass": "toast-bottom-right"
+        }
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+
+    
+    
+    
 
     <!-- Polyfill(s) for older browsers -->
     <script src="https://unpkg.com/core-js/client/shim.min.js"></script>
@@ -23,14 +52,65 @@
   </head>
 
   <body>
+      
     <my-app>loading...</my-app>
+    
+    
+    
+    
+    
+    <script>
+    window.ASSET_VER = '1472539249';
+    window.maxUploadSize = 10485760;
+</script>
+<script type="text/javascript" src="assets/template/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/template/js/jqClock.min.js"></script>
+<script type="text/javascript" src="assets/template/js/lobibox.js"></script>
+<script type="text/javascript" src="assets/template/js/perfect-scrollbar.js"></script>
+<script type="text/javascript" src="assets/template/js/popup.js"></script>
+<script type="text/javascript" src="assets/template/js/owl.carousel.js"></script>
+<script type="text/javascript" src="assets/template/js/fameuz-chat.js"></script>
+<script type="text/javascript" src="assets/template/js/all-page-script.js"></script>
+
+    <script src="https://www.fameuz.com/pubsub/client.js"></script>
+
+<script>
+    $(function () {
+        var countryName = 'United Arab Emirates';
+        var countryFlag = '<img src="assets/template/images/flags/ae.png" width="15" height="10">';
+
+        if (countryName == '') {
+            $.get('/get-country-flag', function (data) {
+                $(".countryTimeZone").prepend(data);
+            });
+        } else {
+            $(".countryTimeZone").prepend('<span>' + countryFlag + '</span><font class="myCountry">' + countryName + '</font></div>');
+        }
+
+        var chat = fameuzChat("https://" + window.location.hostname + "/pubsub", 0);
+        $("#message_notification").click(chat.showTalks);
+        $(document.body).on("click", ".start-chat", chat.showTalk);
+    });
+</script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"35fd437652","applicationID":"16982376","transactionName":"Y1daMhNWDxVYVRJRDVodbRQIGAgIXVMeFhJcQg==","queueTime":0,"applicationTime":17,"atts":"TxBZRFtMHBs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+
+
+
+
+
   </body>
+
+
+
+<!--<h1 class="title">Angular Router</h1>
+    <nav>
+      <a routerLink="" routerLinkActive="active">Home</a>
+      <a routerLink="/profile" routerLinkActive="active">Heroes</a>
+       </nav>-->
 
 </html>
 
 
-<!-- 
-Copyright 2016 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
--->

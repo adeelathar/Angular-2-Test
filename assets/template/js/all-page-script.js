@@ -341,7 +341,8 @@ window.fameuz = {
             });
         });
 
-    $('#mob_btn').click(function (e) {
+    $('body').on('click', '#mob_btn',function (e) {
+     
         $('.top_section .main_nav .main_manu').slideToggle();
         return false;
     });
@@ -350,7 +351,8 @@ window.fameuz = {
         return false;
     });
 
-    $(".mob_menu_btn,#close").click(function (e) {
+    $('body').on('click', ".mob_menu_btn,#close",function (e) {
+        
         e.preventDefault();
         $(".mob_menu").toggleClass("show_menu");
     });
