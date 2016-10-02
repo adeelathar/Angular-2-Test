@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  templateUrl:'app/home/register.component.html'
+  templateUrl:'app/register/register.component.html'
 })
 export class registerComponent { }
 

@@ -5,6 +5,7 @@ import { AppComponent }         from './app.component';
 import { routing,
          appRoutingProviders }  from './app.routing';
 
+import { registerModule }         from './register/register.module';
 import { ProfileModule }         from './profile/profile.module';
 import { HomeModule }   from './home/home.module';
 
@@ -14,6 +15,7 @@ import { HomeModule }   from './home/home.module';
     BrowserModule,
     routing,
     ProfileModule,
+    registerModule,
     HomeModule
   ],
   declarations: [
