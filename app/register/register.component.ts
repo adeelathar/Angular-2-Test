@@ -1,7 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  templateUrl:'app/register/register.component.html'
+  templateUrl:'app/register/register.component.html',
+  styleUrls: [
+        'assets/template/css/register.css',
+    ], 
+    encapsulation: ViewEncapsulation.None, 
 })
 export class registerComponent { }
 
