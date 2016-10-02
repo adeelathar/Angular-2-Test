@@ -5,6 +5,11 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: [
         'assets/template/css/register.css',
     ], 
+    styles: [`
+    .top_image_or_video {
+     display:none
+    }
+  `],
     encapsulation: ViewEncapsulation.None, 
 })
 export class registerComponent { }
