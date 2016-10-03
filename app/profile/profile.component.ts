@@ -1,13 +1,18 @@
 // TODO SOMEDAY: Feature Componetized like CrisisCenter
 import { Component } from '@angular/core';
-import { Router, ActivatedRoute, Params } from '@angular/router';
 
 
 @Component({
-  template: `
-    <h2>HEROES</h2>
+  templateUrl:'app/profile/profile.component.html',
+  styleUrls: [
+        'assets/template/css/edit-profile.css',
+    ], 
+    styles: [`
+    .top_image_or_video {
+     display:none
+    }
+  `],
  
-  `
 })
 export class ProfileComponent {
   
