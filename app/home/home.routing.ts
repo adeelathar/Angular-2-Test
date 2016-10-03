@@ -14,6 +14,11 @@ const homeRoutes: Routes = [
     path: '',
     component: homeComponent,
    
+  },
+  {
+    path: 'home',
+    component: homeComponent,
+   
   }
 ];
 
